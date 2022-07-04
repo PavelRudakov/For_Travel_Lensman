@@ -3,7 +3,7 @@
     "document_id": "Ds-qSwqhzspoh2LWCl7h",
     "original_document_id": "Ds-qSwqhzspoh2LWCl7h",
     "version": "29",
-    "lastChanged": "1656933463003",
+    "lastChanged": "1656934512680",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -84,6 +84,19 @@
                         "Plane"
                     ],
                     [
+                        "Scripts",
+                        "Paralax",
+                        "ParalaxByRot"
+                    ],
+                    [
+                        "Scripts",
+                        "Paralax",
+                        "Readme"
+                    ],
+                    [
+                        "Textures"
+                    ],
+                    [
                         "Textures",
                         "Base"
                     ],
@@ -147,9 +160,12 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "101:100",
                     "1517446348227994:84813",
+                    "1656671891651096:303113",
                     "1656671919213264:308971",
-                    "1656671919213479:308972"
+                    "1656671919213479:308972",
+                    "1656923674306536:293205"
                 ]
             ],
             "selectionSetList": ""
@@ -418,6 +434,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "39",
+                    "uid": "1656933924942580:11391",
+                    "name": "Files\/File93.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "40",
+                    "uid": "1656933924971105:11404",
+                    "name": "Files\/File94.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -466,7 +498,7 @@
                         {
                             "k": "1656924031304965:361283",
                             "v": {
-                                "isBasicMode": "true",
+                                "isBasicMode": "false",
                                 "basicModeSetup": {
                                     "fixWidth": "false",
                                     "fixHeight": "false",
@@ -522,7 +554,7 @@
                         {
                             "k": "1656932556618784:146503",
                             "v": {
-                                "isBasicMode": "true",
+                                "isBasicMode": "false",
                                 "basicModeSetup": {
                                     "fixWidth": "false",
                                     "fixHeight": "false",
@@ -554,7 +586,12 @@
                 "11": "1656924835763481:522190",
                 "12": "1656932539773304:140987",
                 "13": "1656932539813364:141143",
-                "14": "1656932556618550:146502"
+                "14": "1656932556618550:146502",
+                "15": "1656933943905929:15474",
+                "16": "1656933950822076:16326",
+                "17": "1656933978921378:22719",
+                "18": "1656934438390982:130316",
+                "19": "1656934469376988:137790"
             }
         },
         "LayerComponent": {
@@ -818,6 +855,14 @@
                 {
                     "k": "92",
                     "v": "Files\/File92.pvr"
+                },
+                {
+                    "k": "93",
+                    "v": "Files\/File93.js"
+                },
+                {
+                    "k": "94",
+                    "v": "Files\/File94.js"
                 }
             ]
         },
@@ -928,6 +973,22 @@
                     {
                         "k": "996",
                         "v": "Materials"
+                    },
+                    {
+                        "k": "997",
+                        "v": "Scripts"
+                    },
+                    {
+                        "k": "998",
+                        "v": "Scripts\/Paralax\/ParalaxByRot.js"
+                    },
+                    {
+                        "k": "999",
+                        "v": "Scripts\/Paralax\/Readme.js"
+                    },
+                    {
+                        "k": "1000",
+                        "v": "Scripts\/Paralax"
                     }
                 ],
                 "hashes": [
@@ -957,7 +1018,7 @@
                     },
                     {
                         "k": "972",
-                        "v": "e2e713196decbc1b9f0c1d6672c1b464"
+                        "v": "9ac8c776aa46ac849ee1435d00661257"
                     },
                     {
                         "k": "973",
@@ -997,7 +1058,7 @@
                     },
                     {
                         "k": "982",
-                        "v": "31ec5eb0e58755b3893210f23c079530"
+                        "v": "11b16369c833ac951b31fb8ae2828db0"
                     },
                     {
                         "k": "983",
@@ -1017,15 +1078,15 @@
                     },
                     {
                         "k": "989",
-                        "v": "a1b9722fb6d85123efb9eff48895834f"
+                        "v": "d57d9e385b63dccbdfdb0e44ec0d03b2"
                     },
                     {
                         "k": "990",
-                        "v": "fd1f7c66c262b7c6b3aac97f607928a8"
+                        "v": "c11c02ff5eee2edb091d138b026c563f"
                     },
                     {
                         "k": "991",
-                        "v": "a8f23ba6d4d81baffee5075c7934eb9c"
+                        "v": "e3cbf21cebef989a00120e159de146d9"
                     },
                     {
                         "k": "992",
@@ -1037,226 +1098,278 @@
                     },
                     {
                         "k": "994",
-                        "v": "017e32c1c40d739335ef1142c6a22e02"
+                        "v": "86a5db8658f43b53b66d1221c01b4584"
                     },
                     {
                         "k": "995",
                         "v": "f57ed6ec90dfcc39741ff556d3ccbfec"
+                    },
+                    {
+                        "k": "998",
+                        "v": "2323c5bfa9c11460bbabc1b1bc818b28"
+                    },
+                    {
+                        "k": "999",
+                        "v": "a186aff4daf78eb4f9a5d40f08f44a67"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-04T13:58:28",
+                        "lastModified": "2022-07-04T14:32:53",
                         "name": "Public",
-                        "hash": "93f96e17d9030603be650f7e0dc56ddc",
+                        "hash": "6b4a62104e6b8a57cc4bd63b57aa178c",
                         "children": [
                             {
-                                "isFolder": "false",
-                                "lastModified": "2022-06-27T11:51:20",
-                                "name": "Echopark.hdr",
-                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-04T11:56:41",
-                                "name": "Face Mesh Default.lsmat",
-                                "hash": "4cbb6f16a81bfe0c052de83cf98f2307",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-06-27T11:51:20",
-                                "name": "folder.lock",
-                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                "children": ""
-                            },
-                            {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-04T13:54:20",
-                                "name": "Materials",
-                                "hash": "b4c51a29fe0192d4cd3b92d71489e016",
-                                "children": [
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T13:54:20",
-                                        "name": "Desert",
-                                        "hash": "48ab831c86a0ae18266513bf48bf341b",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:30:46",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T13:44:36",
-                                                "name": "Hat.lsmat",
-                                                "hash": "edf0a99bed5ddd378b44ba4e81eebc30",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T13:44:36",
-                                                "name": "orange back.lsmat",
-                                                "hash": "98a76f0b0e7f311fe0159150df0f9d41",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T13:44:36",
-                                                "name": "sun.lsmat",
-                                                "hash": "4df7b2b21ac984266c5305e307d12dcd",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T13:44:36",
-                                                "name": "Unlit piramids.lsmat",
-                                                "hash": "e45bdcaa6d47d74da75f614a7f413f64",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T13:44:36",
-                                                "name": "Unlit sand.lsmat",
-                                                "hash": "f64a49346367c456183fc2e844e314ef",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T13:54:09",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-01T13:39:30",
-                                "name": "Plane.mesh",
-                                "hash": "f3f8f179b87ba4b5a44077fb80d53214",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-07-04T11:50:24",
+                                "lastModified": "2022-07-04T14:19:13",
                                 "name": "Textures",
                                 "hash": "c2bcd7745c0a1d24390a8b45011445d2",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:39",
-                                        "name": "Base.png",
-                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T14:08:41",
-                                        "name": "Desert",
-                                        "hash": "6beffd6af1965e91f7c292dc98637983",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:29:46",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:52:40",
-                                                "name": "gradient.png",
-                                                "hash": "754e9598a7323641511321c89f4e274c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-01T13:46:11",
-                                                "name": "hat.png",
-                                                "hash": "35d66ae582ae0259ae292a24ed944c97",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:29:37",
-                                                "name": "piramids.png",
-                                                "hash": "7dcb826909aca147dba321f10ed5ab79",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T14:08:32",
-                                                "name": "ppalm.png",
-                                                "hash": "23bf95d79064868e59366087dad2de8f",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:43:32",
-                                                "name": "sand_1.png",
-                                                "hash": "21e3ca844bc0f70e6d1b3d326c5b3f91",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-01T12:53:26",
-                                                "name": "sun2.png",
-                                                "hash": "299f0bf6eab8ccb247b7c514038efa06",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:39",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "Face Mesh Texture.jpg",
                                         "hash": "c1b22adb808b801d453498c35c300b9a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:39",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:51",
-                                        "name": "Image.png",
-                                        "hash": "54b5e21104a4a7f86b3d510596fdc27e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:39:58",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "MaterialParams.png",
                                         "hash": "af2715bddfbca2d4e72f470d285c5010",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:39:58",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
                                         "children": ""
                                     },
                                     {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "Desert",
+                                        "hash": "6beffd6af1965e91f7c292dc98637983",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "sand_1.png",
+                                                "hash": "21e3ca844bc0f70e6d1b3d326c5b3f91",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "gradient.png",
+                                                "hash": "754e9598a7323641511321c89f4e274c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "piramids.png",
+                                                "hash": "7dcb826909aca147dba321f10ed5ab79",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "hat.png",
+                                                "hash": "35d66ae582ae0259ae292a24ed944c97",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "ppalm.png",
+                                                "hash": "23bf95d79064868e59366087dad2de8f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "sun2.png",
+                                                "hash": "299f0bf6eab8ccb247b7c514038efa06",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:42:13",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "White.png",
                                         "hash": "0c8dcfed2f50bb81ac5276a14967c005",
                                         "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "Image.png",
+                                        "hash": "54b5e21104a4a7f86b3d510596fdc27e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-04T14:19:13",
+                                "name": "Materials",
+                                "hash": "116d07351b955349c57cbb14f7cde83b",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-04T14:32:53",
+                                        "name": "Desert",
+                                        "hash": "379a6d8e9ad01cc6c184540ce8daf0e4",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:32:53",
+                                                "name": "sun.lsmat",
+                                                "hash": "e4cb70d25db19a9dacbf74c3ead30a91",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:32:53",
+                                                "name": "orange back.lsmat",
+                                                "hash": "75f61085ca39eba7468ca0c2359d0ccd",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:32:53",
+                                                "name": "Hat.lsmat",
+                                                "hash": "e773f43aa95089d011753c64c1f4799f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:32:53",
+                                                "name": "Unlit piramids.lsmat",
+                                                "hash": "ba85066f1712f69d989f8e0b3864aaf9",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:32:53",
+                                                "name": "Unlit sand.lsmat",
+                                                "hash": "65f3586038ef28742780258892c2842f",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T14:32:53",
+                                "name": "Face Mesh Default.lsmat",
+                                "hash": "d60564e16e38d738872e171bd9f3a33a",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T14:19:13",
+                                "name": "Plane.mesh",
+                                "hash": "f3f8f179b87ba4b5a44077fb80d53214",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-04T14:25:39",
+                                "name": "Scripts",
+                                "hash": "4faceddd02ae8c04a598e968b87c27fc",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-04T14:25:39",
+                                        "name": "Paralax",
+                                        "hash": "a845ebc3cb7dbfd421c4584b504afcf9",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:32:34",
+                                                "name": "ParalaxByRot.js",
+                                                "hash": "2323c5bfa9c11460bbabc1b1bc818b28",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-06-22T13:07:08",
+                                                "name": "Readme.js",
+                                                "hash": "a186aff4daf78eb4f9a5d40f08f44a67",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:25:30",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:25:08",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T14:19:13",
+                                "name": "Echopark.hdr",
+                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T14:19:13",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
                             }
                         ]
                     }
@@ -1780,16 +1893,72 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "997",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Paralax",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1000",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "ParalaxByRot",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "39",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1656933924942580:11391",
+                                        "fileId": "93",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "998",
+                                        "source": "\/Users\/pavelivasiuk\/Documents\/GitHub\/lensstudio_scripts\/LensStudioHelperScripts\/Public\/Scripts\/Parallax2DUseRotation\/ParalaxByRot.js",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Readme",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "40",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1656933924971105:11404",
+                                        "fileId": "94",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "999",
+                                        "source": "\/Users\/pavelivasiuk\/Documents\/GitHub\/lensstudio_scripts\/LensStudioHelperScripts\/Public\/Scripts\/Parallax2DUseRotation\/Readme.js",
+                                        "additional": ""
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "101:100"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
