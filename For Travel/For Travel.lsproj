@@ -3,7 +3,7 @@
     "document_id": "Ds-qSwqhzspoh2LWCl7h",
     "original_document_id": "Ds-qSwqhzspoh2LWCl7h",
     "version": "29",
-    "lastChanged": "1657097968861",
+    "lastChanged": "1657110272323",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -185,6 +185,9 @@
                         "Face Mesh Default"
                     ],
                     [
+                        "Materials"
+                    ],
+                    [
                         "Materials",
                         "Desert",
                         "Hat"
@@ -248,9 +251,6 @@
                         "Sea mask"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "BindTransform"
                     ],
@@ -265,6 +265,10 @@
                     [
                         "Scripts",
                         "JSMathLibrary"
+                    ],
+                    [
+                        "Scripts",
+                        "LinkingObject"
                     ],
                     [
                         "Scripts",
@@ -421,6 +425,9 @@
                         "hat"
                     ],
                     [
+                        "hat_v01"
+                    ],
+                    [
                         "hat_v01",
                         "Meshes"
                     ],
@@ -483,6 +490,9 @@
                         "rope"
                     ],
                     [
+                        "rope_v01"
+                    ],
+                    [
                         "rope_v01",
                         "Meshes"
                     ],
@@ -502,7 +512,9 @@
             "collapsedList": [
                 [
                     "1517446348227994:84813",
+                    "1656671891651096:303113",
                     "1656923674306536:293205",
+                    "1656923708377905:302408",
                     "1656932539773304:140987",
                     "1656933943905929:15474",
                     "1656947945021493:1004582",
@@ -510,7 +522,7 @@
                     "1656948911269170:1235243",
                     "1656948933382089:1241100",
                     "1656949513157741:1333986",
-                    "1656950444039514:1457725",
+                    "1656950426728052:1454763",
                     "1656950495408433:1472777",
                     "1657028587087224:1954493"
                 ]
@@ -562,7 +574,7 @@
             "mapPinPoints": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1656944658365759:590011"
+            "active_graph_asset": "-1:-1"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -1205,6 +1217,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "95",
+                    "uid": "1657109481773944:65586",
+                    "name": "Files\/File220.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1639,7 +1659,11 @@
                 "71": "1657097398233474:251424",
                 "72": "1657097398236945:251433",
                 "73": "1657097398239269:251442",
-                "74": "1657097398249405:251532"
+                "74": "1657097398249405:251532",
+                "75": "1657109359721757:24518",
+                "76": "1657109359726664:24548",
+                "77": "1657109444213904:61022",
+                "78": "1657109495721407:71664"
             }
         },
         "LayerComponent": {
@@ -2387,6 +2411,10 @@
                 {
                     "k": "219",
                     "v": "Files\/File219.pvr"
+                },
+                {
+                    "k": "220",
+                    "v": "Files\/File220.js"
                 }
             ]
         },
@@ -2757,6 +2785,10 @@
                     {
                         "k": "1063",
                         "v": "..\/AdditionalFiles\/hat_v01\/Materials"
+                    },
+                    {
+                        "k": "1064",
+                        "v": "Scripts\/LinkingObject.js"
                     }
                 ],
                 "hashes": [
@@ -2786,7 +2818,7 @@
                     },
                     {
                         "k": "972",
-                        "v": "ff1e5d3676b629232f8a2ba7b3f6ee6f"
+                        "v": "35ce97ddf1e4abba969e450d65c98a5d"
                     },
                     {
                         "k": "973",
@@ -2826,7 +2858,7 @@
                     },
                     {
                         "k": "982",
-                        "v": "85d492c1c7ed67af5ce9cdbbe3ed5731"
+                        "v": "93d94b7c7ea351c09c5b1aef16f947a9"
                     },
                     {
                         "k": "983",
@@ -2846,15 +2878,15 @@
                     },
                     {
                         "k": "989",
-                        "v": "8015cf29b0450291cbdf5cc0f8a8e635"
+                        "v": "d452fe3c42021976ff08379ab6863e26"
                     },
                     {
                         "k": "990",
-                        "v": "1b89b6242397cfdf45057e6f3dc517a0"
+                        "v": "7cb96943d7da4db86d5f4b0cc64d941d"
                     },
                     {
                         "k": "991",
-                        "v": "6818ef7cec2c1598ff91e75a2770bf2d"
+                        "v": "46631e8b98ac387bcdbcf69cb51fc2e9"
                     },
                     {
                         "k": "992",
@@ -2866,7 +2898,7 @@
                     },
                     {
                         "k": "994",
-                        "v": "7dce93ff642b33fd825774fc98116c45"
+                        "v": "e06e7a579a2210e04d73cb0846e3a035"
                     },
                     {
                         "k": "995",
@@ -2894,7 +2926,7 @@
                     },
                     {
                         "k": "1004",
-                        "v": "665353c86862dd8f27edcdfc4ff00c38"
+                        "v": "9049bad8f2a28ab95f11aa39b3b3e6b3"
                     },
                     {
                         "k": "1005",
@@ -2906,7 +2938,7 @@
                     },
                     {
                         "k": "1009",
-                        "v": "ca881767f0d97ceb1cc7358c3b9e88e1"
+                        "v": "02241e69b5cd670478c9af25f68834f7"
                     },
                     {
                         "k": "1010",
@@ -2918,7 +2950,7 @@
                     },
                     {
                         "k": "1012",
-                        "v": "07734a6fe1e067c686ad3709fa090b1e"
+                        "v": "506da3e41cd463e0d22d08eedb233e11"
                     },
                     {
                         "k": "1013",
@@ -2930,7 +2962,7 @@
                     },
                     {
                         "k": "1016",
-                        "v": "b6bd52feaa3129b384a276ffa9de084a"
+                        "v": "08c1d369c31cefedac19310305615802"
                     },
                     {
                         "k": "1018",
@@ -2938,7 +2970,7 @@
                     },
                     {
                         "k": "1019",
-                        "v": "9978c8bb5b57584178ecc0f136e125cb"
+                        "v": "0a093390fcf3f15ee58a542938c5b7cf"
                     },
                     {
                         "k": "1020",
@@ -3034,11 +3066,11 @@
                     },
                     {
                         "k": "1054",
-                        "v": "d065233276a1ce9a5c701a4d9c805632"
+                        "v": "61b08dd3c1af7376de1d185732e10680"
                     },
                     {
                         "k": "1055",
-                        "v": "3442a58884df5a215d6e4cd8016fe5e7"
+                        "v": "186c43a8a278802aa714d8e71f2d0f45"
                     },
                     {
                         "k": "1056",
@@ -3054,7 +3086,7 @@
                     },
                     {
                         "k": "1060",
-                        "v": "9135e24b0d0254586bf616d8b9de8603"
+                        "v": "23d528461aba74c57abddb4706db61eb"
                     },
                     {
                         "k": "1061",
@@ -3066,792 +3098,799 @@
                     },
                     {
                         "k": "1064",
-                        "v": "a0b725f61269e8a238b007b3bca06914"
+                        "v": "13d4d338474b37da199618d3f106e01c"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-06T11:58:32",
+                        "lastModified": "2022-07-06T15:24:03",
                         "name": "Public",
-                        "hash": "ed42673c4e7cc7b2fb9857a8b8f92059",
+                        "hash": "dcbe9dbb9663a3fb7c7f57149b502c23",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-04T19:09:00",
-                                "name": "Chain Physics Resources",
-                                "hash": "2126bc80cc446a79ecfb3f6013f28236",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T19:08:59",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T19:09:02",
-                                        "name": "Materials",
-                                        "hash": "0ecb4fba6d1fce24aacf24c6306b0866",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:09:02",
-                                                "name": "face_material.lsmat",
-                                                "hash": "83161447ba22b58b933733defa9bd755",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:08:59",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:09:02",
-                                                "name": "notes_material.lsmat",
-                                                "hash": "b7053cf35d8c68d7776df325ccd9a706",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:09:01",
-                                                "name": "petals_material.lsmat",
-                                                "hash": "3a2411a89c96b6da08ab82ad5ab99937",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:09:01",
-                                                "name": "stem_material.lsmat",
-                                                "hash": "6a7839b6808ef2075c5e5f940d09acff",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T19:09:00",
-                                        "name": "Models",
-                                        "hash": "cbd25386c25b212327196fc43a75cc1a",
-                                        "children": [
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-07-04T19:09:00",
-                                                "name": "Flower",
-                                                "hash": "4f53971f664b9d16ff60e54990525a6f",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-07-04T19:09:00",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "true",
-                                                        "lastModified": "2022-07-04T19:09:00",
-                                                        "name": "Meshes",
-                                                        "hash": "56f78d5b89ee691651a5437b1c3af551",
-                                                        "children": [
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Cylinder.mesh",
-                                                                "hash": "d3e2d60e8f40e65cabece7ab8a81eb13",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:09:00",
-                                                                "name": "folder.lock",
-                                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Grass.mesh",
-                                                                "hash": "d47d393776be2c018ab2f1a655e61136",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Head.mesh",
-                                                                "hash": "883c058220fe2971e2c6c9ce2082eece",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Leaf.mesh",
-                                                                "hash": "5eba64bb31fd46526d92d51e51a4ced8",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Petals.mesh",
-                                                                "hash": "c6a2e66990d739514db9e85494d4639d",
-                                                                "children": ""
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:09:00",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-07-04T19:09:00",
-                                                "name": "Notes",
-                                                "hash": "0d1509e59588869a34726f57ab1349e4",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "true",
-                                                        "lastModified": "2022-07-04T19:09:00",
-                                                        "name": "Animations",
-                                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
-                                                        "children": [
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:09:00",
-                                                                "name": "folder.lock",
-                                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                                "children": ""
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-07-04T19:09:00",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "true",
-                                                        "lastModified": "2022-07-04T19:09:00",
-                                                        "name": "Meshes",
-                                                        "hash": "a4f9539fac23c73b42792dec94cd3801",
-                                                        "children": [
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:09:00",
-                                                                "name": "folder.lock",
-                                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Note 1.mesh",
-                                                                "hash": "ab2561db9ba438c44a12b3b15c56ea36",
-                                                                "children": ""
-                                                            },
-                                                            {
-                                                                "isFolder": "false",
-                                                                "lastModified": "2022-07-04T19:08:58",
-                                                                "name": "Note 2.mesh",
-                                                                "hash": "1be07cc0a8bd48e4b131b11a82503c72",
-                                                                "children": ""
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T19:08:59",
-                                        "name": "Textures",
-                                        "hash": "01f7303934c6a988d72463d128407f39",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:08:59",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T19:08:58",
-                                                "name": "MaterialParams.png",
-                                                "hash": "6bd001d345074a168e601bc52936747c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2022-07-04T19:08:59",
-                                                "name": "singing_animated",
-                                                "hash": "ec245c656cb0ccb2e6da951839401be9",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-07-04T19:08:58",
-                                                        "name": "animation.t3d",
-                                                        "hash": "1fd885de7afe3e30131409fbda298331",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2022-07-04T19:08:58",
-                                                        "name": "atlas_0.pvr",
-                                                        "hash": "51ef8da2df8be5299b36625af4754e87",
-                                                        "children": ""
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-06-27T11:51:20",
-                                "name": "Echopark.hdr",
-                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-06T11:58:32",
-                                "name": "Face Mesh Default.lsmat",
-                                "hash": "e5b0cbf340f2aebf2900e63937a60890",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-06-27T11:51:20",
-                                "name": "folder.lock",
-                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-06T11:49:30",
-                                "name": "hat.png",
-                                "hash": "35d66ae582ae0259ae292a24ed944c97",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-06T11:38:14",
-                                "name": "hat_v01.fbx",
-                                "hash": "1c6a4e6f302c8a149c2deb3d5e525dd0",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-07-06T11:58:32",
-                                "name": "Materials",
-                                "hash": "34dfd1af5871319c9f1a2e442838cea9",
-                                "children": [
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-06T11:58:31",
-                                        "name": "Desert",
-                                        "hash": "d2bcc3148173b90792951ce4eaa80ab8",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:30:46",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "Hat.lsmat",
-                                                "hash": "ac4a90faa5268afa179a1f62848e67e5",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "orange back.lsmat",
-                                                "hash": "aaa88e66ce9fefa0ffe97c52dd5967a4",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "scroll.lsmat",
-                                                "hash": "6bf184b072ca683b7c03e5613635fbd5",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "sun.lsmat",
-                                                "hash": "c9d462cd625f7a1e5dd13e54218b61ea",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:30",
-                                                "name": "Unlit piramids.lsmat",
-                                                "hash": "e80b92b97095d7448cf471ba039aa1fd",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "Unlit sand.lsmat",
-                                                "hash": "e51c877a7e6e7d296d0afaa1d8db6df1",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-06T11:58:32",
-                                        "name": "Face Mesh Default.lsmat",
-                                        "hash": "638a1a9b39d657ee9261bc5c260488be",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T13:54:09",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-06T11:58:32",
-                                        "name": "Jungle",
-                                        "hash": "965f67e8d451919405a6b5f0817c4e42",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "bushes.lsmat",
-                                                "hash": "1d979ab84eebdd6b0f6cda802034d2b2",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:29:05",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "hat.lsmat",
-                                                "hash": "b9da6fcb8eeb971efd2b2889bee6c08e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:32",
-                                                "name": "rope.lsmat",
-                                                "hash": "6ff83e69d6daef9b0d4bf0c72e74b852",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:31",
-                                                "name": "scarf.lsmat",
-                                                "hash": "9ad9014adb355efd0191d8b6a857df45",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-06T11:58:32",
-                                        "name": "Sea",
-                                        "hash": "2b45f61c9ce00fdd45868f53b2f61617",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T14:41:37",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-06T11:58:32",
-                                                "name": "Sea mask.lsmat",
-                                                "hash": "87a81d5a2d740a6dc798f5e0e46c369d",
-                                                "children": ""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-07-04T19:04:11",
-                                "name": "meshes",
-                                "hash": "ddf11b4e593ae4608b2677b89f8db6c7",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T19:04:01",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:39:30",
-                                        "name": "Plane.mesh",
-                                        "hash": "f3f8f179b87ba4b5a44077fb80d53214",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T18:58:07",
-                                        "name": "scarf rig.fbx",
-                                        "hash": "3922644c4f2ecf87b1969239efc9b25c",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-06T11:38:29",
-                                "name": "rope.png",
-                                "hash": "443058bc5871834f9ab7a40e18a39f47",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-07-06T11:38:14",
-                                "name": "rope_v01.fbx",
-                                "hash": "3356bdc17a9d156dbfa6f6dc0018d79d",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-07-05T10:51:42",
-                                "name": "Scripts",
-                                "hash": "a74fd691e60dc25e15d3bd996b90c462",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-06-28T14:57:38",
-                                        "name": "BindTransform.js",
-                                        "hash": "90cfe9499eed927c5adbc5fe24a85ae4",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T19:08:58",
-                                        "name": "ChainController.js",
-                                        "hash": "875503243a5f3d53745f63fc57470822",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-05T10:51:42",
-                                        "name": "DevTools.js",
-                                        "hash": "a6265d7a01a9a592f02c2860c4e5fa82",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T15:05:29",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T19:08:58",
-                                        "name": "JSMathLibrary.js",
-                                        "hash": "43c36090b4dd23790651dd6d7e5c1706",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T15:05:29",
-                                        "name": "Paralax",
-                                        "hash": "a845ebc3cb7dbfd421c4584b504afcf9",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T15:05:29",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T15:05:29",
-                                                "name": "ParalaxByRot.js",
-                                                "hash": "2323c5bfa9c11460bbabc1b1bc818b28",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T15:05:29",
-                                                "name": "Readme.js",
-                                                "hash": "a186aff4daf78eb4f9a5d40f08f44a67",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-04T19:08:58",
-                                        "name": "PositionBasedDynamicsHelpers.js",
-                                        "hash": "d2151bce54cf73d8154e94fbc99fbee4",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-05T10:51:42",
-                                        "name": "SwitchObjectByEvent.js",
-                                        "hash": "30294c2a3a870b2bfc7147f649c27b32",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-07-05T14:41:58",
+                                "lastModified": "2022-07-06T15:08:41",
                                 "name": "Textures",
                                 "hash": "60cbd5c6cf5fd74fbdc2201cfa23b904",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:39",
-                                        "name": "Base.png",
-                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-04T16:51:59",
-                                        "name": "Desert",
-                                        "hash": "75a3ff450ff894efe7eea685e3b8e780",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:29:46",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:52:40",
-                                                "name": "gradient.png",
-                                                "hash": "754e9598a7323641511321c89f4e274c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-01T13:46:11",
-                                                "name": "hat.png",
-                                                "hash": "35d66ae582ae0259ae292a24ed944c97",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:29:37",
-                                                "name": "piramids.png",
-                                                "hash": "7dcb826909aca147dba321f10ed5ab79",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T14:08:32",
-                                                "name": "ppalm.png",
-                                                "hash": "23bf95d79064868e59366087dad2de8f",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T11:43:32",
-                                                "name": "sand_1.png",
-                                                "hash": "21e3ca844bc0f70e6d1b3d326c5b3f91",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T16:50:35",
-                                                "name": "scroll.png",
-                                                "hash": "c2f39bf52c81ffb223221231be65ce15",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-01T12:53:26",
-                                                "name": "sun2.png",
-                                                "hash": "299f0bf6eab8ccb247b7c514038efa06",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:39",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "Face Mesh Texture.jpg",
                                         "hash": "c1b22adb808b801d453498c35c300b9a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:39",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:38:51",
-                                        "name": "Image.png",
-                                        "hash": "54b5e21104a4a7f86b3d510596fdc27e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-07-05T13:22:56",
-                                        "name": "Jungle",
-                                        "hash": "ed33cfb8b0c23f2b58f36a3c8b62e10a",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:25:44",
-                                                "name": "bushes.png",
-                                                "hash": "afda4c2781b6a77f0e6f71339e651ee4",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:18:45",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:40:29",
-                                                "name": "gradient_jungle_1.png",
-                                                "hash": "63b792690042b15cd3686fc4850dcf20",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:44:09",
-                                                "name": "hat-jungle.png",
-                                                "hash": "ed384dfb70f86cb3879721c19b8671b4",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T12:55:00",
-                                                "name": "leaf_1.png",
-                                                "hash": "7851a7854f86764142c6165735f1c141",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T13:01:54",
-                                                "name": "Leaf_2.png",
-                                                "hash": "2f5a58f58aaff79e86a7c97ef18d8e74",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T13:02:54",
-                                                "name": "Leaf_3.png",
-                                                "hash": "1409000ff41cc70bb8dd35d5e0871bc6",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T13:22:27",
-                                                "name": "Leaf_4.png",
-                                                "hash": "361847afc21af70b6f89352d4acf8aa6",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:18:29",
-                                                "name": "lian.png",
-                                                "hash": "c004ca43bed0948aaa46d992260a9b1a",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-04T18:54:59",
-                                                "name": "scarf.png",
-                                                "hash": "7d2421e33be1c98b44f5cfb972b64a6d",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:39:58",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "MaterialParams.png",
                                         "hash": "af2715bddfbca2d4e72f470d285c5010",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:39:58",
-                                        "name": "Normal.png",
-                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-05T16:42:56",
-                                        "name": "Sea",
-                                        "hash": "655f64231ac2ea4e2b4ff577c3ef25db",
+                                        "lastModified": "2022-07-06T12:02:44",
+                                        "name": "Jungle",
+                                        "hash": "ed33cfb8b0c23f2b58f36a3c8b62e10a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-05T14:41:53",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "hat-jungle.png",
+                                                "hash": "ed384dfb70f86cb3879721c19b8671b4",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "leaf_1.png",
+                                                "hash": "7851a7854f86764142c6165735f1c141",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "gradient_jungle_1.png",
+                                                "hash": "63b792690042b15cd3686fc4850dcf20",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "Leaf_2.png",
+                                                "hash": "2f5a58f58aaff79e86a7c97ef18d8e74",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "Leaf_3.png",
+                                                "hash": "1409000ff41cc70bb8dd35d5e0871bc6",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "scarf.png",
+                                                "hash": "7d2421e33be1c98b44f5cfb972b64a6d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "Leaf_4.png",
+                                                "hash": "361847afc21af70b6f89352d4acf8aa6",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "bushes.png",
+                                                "hash": "afda4c2781b6a77f0e6f71339e651ee4",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "lian.png",
+                                                "hash": "c004ca43bed0948aaa46d992260a9b1a",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T14:41:04",
-                                                "name": "Mask-sea.png",
-                                                "hash": "6314ec9ed9411a4fbfb8e8286c249dbd",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-07-05T16:42:42",
-                                                "name": "seaback.jpg",
-                                                "hash": "59371cde4f2cd6d4a5ef64bde18324e8",
                                                 "children": ""
                                             }
                                         ]
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-01T13:42:13",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "Desert",
+                                        "hash": "75a3ff450ff894efe7eea685e3b8e780",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "sand_1.png",
+                                                "hash": "21e3ca844bc0f70e6d1b3d326c5b3f91",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "gradient.png",
+                                                "hash": "754e9598a7323641511321c89f4e274c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "piramids.png",
+                                                "hash": "7dcb826909aca147dba321f10ed5ab79",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "hat.png",
+                                                "hash": "35d66ae582ae0259ae292a24ed944c97",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "ppalm.png",
+                                                "hash": "23bf95d79064868e59366087dad2de8f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "sun2.png",
+                                                "hash": "299f0bf6eab8ccb247b7c514038efa06",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "scroll.png",
+                                                "hash": "c2f39bf52c81ffb223221231be65ce15",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-06T12:02:44",
+                                        "name": "Sea",
+                                        "hash": "655f64231ac2ea4e2b4ff577c3ef25db",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "Mask-sea.png",
+                                                "hash": "6314ec9ed9411a4fbfb8e8286c249dbd",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "seaback.jpg",
+                                                "hash": "59371cde4f2cd6d4a5ef64bde18324e8",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
                                         "name": "White.png",
                                         "hash": "0c8dcfed2f50bb81ac5276a14967c005",
                                         "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "Image.png",
+                                        "hash": "54b5e21104a4a7f86b3d510596fdc27e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-06T12:02:44",
+                                "name": "hat.png",
+                                "hash": "35d66ae582ae0259ae292a24ed944c97",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-06T15:24:03",
+                                "name": "Materials",
+                                "hash": "d854c046fa5296988271e08a3250fdcc",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-06T15:24:03",
+                                        "name": "Face Mesh Default.lsmat",
+                                        "hash": "cc315603dd2d482a0466ad47c9fdf4e2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-06T15:24:03",
+                                        "name": "Jungle",
+                                        "hash": "40bff3a92976e970a90fdfdc4d8af4d4",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "scarf.lsmat",
+                                                "hash": "910f0ca47010a8470b4eed29060adbdf",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "bushes.lsmat",
+                                                "hash": "98a143c01acc2110267d9e90c9c4d101",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "hat.lsmat",
+                                                "hash": "1c6de14e2671c2ca4ea3520d0935e88e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "rope.lsmat",
+                                                "hash": "bf9afa3c1739e2bbe0c2294e7bcfb70b",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-06T15:24:03",
+                                        "name": "Desert",
+                                        "hash": "0cca6d0a8904f99808632ee765c96259",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:02",
+                                                "name": "sun.lsmat",
+                                                "hash": "983368d3ac68be6b5b466c2d814780bf",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "scroll.lsmat",
+                                                "hash": "409c6ad4c1763912ead97581af086a8f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:02",
+                                                "name": "orange back.lsmat",
+                                                "hash": "10955e4f52b3990a1c6283a1c3a46050",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "Hat.lsmat",
+                                                "hash": "b709bdfcd5d542b03200a9e7ec6ffc9c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:02",
+                                                "name": "Unlit piramids.lsmat",
+                                                "hash": "ce4759b4bf004a62530e8fd4b6f03b32",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:19:13",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:02",
+                                                "name": "Unlit sand.lsmat",
+                                                "hash": "892c272b2f5cd39abf8862ccba7d747c",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-06T15:24:03",
+                                        "name": "Sea",
+                                        "hash": "1c580b8e80cb294cf2255f39834e251b",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T15:24:03",
+                                                "name": "Sea mask.lsmat",
+                                                "hash": "ee3a3e7c9a3bf6d0367181accaa061dc",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-06T12:02:44",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:19:13",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-05T10:06:14",
+                                "name": "Chain Physics Resources",
+                                "hash": "2126bc80cc446a79ecfb3f6013f28236",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "Textures",
+                                        "hash": "01f7303934c6a988d72463d128407f39",
+                                        "children": [
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "singing_animated",
+                                                "hash": "ec245c656cb0ccb2e6da951839401be9",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "atlas_0.pvr",
+                                                        "hash": "51ef8da2df8be5299b36625af4754e87",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "animation.t3d",
+                                                        "hash": "1fd885de7afe3e30131409fbda298331",
+                                                        "children": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "MaterialParams.png",
+                                                "hash": "6bd001d345074a168e601bc52936747c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "Materials",
+                                        "hash": "0ecb4fba6d1fce24aacf24c6306b0866",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "notes_material.lsmat",
+                                                "hash": "b7053cf35d8c68d7776df325ccd9a706",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "stem_material.lsmat",
+                                                "hash": "6a7839b6808ef2075c5e5f940d09acff",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "petals_material.lsmat",
+                                                "hash": "3a2411a89c96b6da08ab82ad5ab99937",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "face_material.lsmat",
+                                                "hash": "83161447ba22b58b933733defa9bd755",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "Models",
+                                        "hash": "cbd25386c25b212327196fc43a75cc1a",
+                                        "children": [
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "Flower",
+                                                "hash": "4f53971f664b9d16ff60e54990525a6f",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "true",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "Meshes",
+                                                        "hash": "56f78d5b89ee691651a5437b1c3af551",
+                                                        "children": [
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Grass.mesh",
+                                                                "hash": "d47d393776be2c018ab2f1a655e61136",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Petals.mesh",
+                                                                "hash": "c6a2e66990d739514db9e85494d4639d",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Head.mesh",
+                                                                "hash": "883c058220fe2971e2c6c9ce2082eece",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Leaf.mesh",
+                                                                "hash": "5eba64bb31fd46526d92d51e51a4ced8",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Cylinder.mesh",
+                                                                "hash": "d3e2d60e8f40e65cabece7ab8a81eb13",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "folder.lock",
+                                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                                "children": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "Notes",
+                                                "hash": "0d1509e59588869a34726f57ab1349e4",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "true",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "Meshes",
+                                                        "hash": "a4f9539fac23c73b42792dec94cd3801",
+                                                        "children": [
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Note 1.mesh",
+                                                                "hash": "ab2561db9ba438c44a12b3b15c56ea36",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "Note 2.mesh",
+                                                                "hash": "1be07cc0a8bd48e4b131b11a82503c72",
+                                                                "children": ""
+                                                            },
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "folder.lock",
+                                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                                "children": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "isFolder": "true",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "Animations",
+                                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                                        "children": [
+                                                            {
+                                                                "isFolder": "false",
+                                                                "lastModified": "2022-07-05T10:06:14",
+                                                                "name": "folder.lock",
+                                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                                "children": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2022-07-05T10:06:14",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-05T10:06:14",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-06T15:24:03",
+                                "name": "Face Mesh Default.lsmat",
+                                "hash": "5e992154759f47a2fd76bb4a31411df2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-05T10:06:14",
+                                "name": "meshes",
+                                "hash": "ddf11b4e593ae4608b2677b89f8db6c7",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "scarf rig.fbx",
+                                        "hash": "3922644c4f2ecf87b1969239efc9b25c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "Plane.mesh",
+                                        "hash": "f3f8f179b87ba4b5a44077fb80d53214",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-07-06T15:11:21",
+                                "name": "Scripts",
+                                "hash": "fa88cea2d03aa74787bde41b55b0bb70",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "BindTransform.js",
+                                        "hash": "90cfe9499eed927c5adbc5fe24a85ae4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "JSMathLibrary.js",
+                                        "hash": "43c36090b4dd23790651dd6d7e5c1706",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-06-22T13:07:08",
+                                        "name": "LinkingObject.js",
+                                        "hash": "13d4d338474b37da199618d3f106e01c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-07-04T14:37:00",
+                                        "name": "Paralax",
+                                        "hash": "a845ebc3cb7dbfd421c4584b504afcf9",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:37:00",
+                                                "name": "ParalaxByRot.js",
+                                                "hash": "2323c5bfa9c11460bbabc1b1bc818b28",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:37:00",
+                                                "name": "Readme.js",
+                                                "hash": "a186aff4daf78eb4f9a5d40f08f44a67",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-04T14:37:00",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "PositionBasedDynamicsHelpers.js",
+                                        "hash": "d2151bce54cf73d8154e94fbc99fbee4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:06:14",
+                                        "name": "ChainController.js",
+                                        "hash": "875503243a5f3d53745f63fc57470822",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-05T10:12:05",
+                                        "name": "SwitchObjectByEvent.js",
+                                        "hash": "30294c2a3a870b2bfc7147f649c27b32",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-05-27T14:01:24",
+                                        "name": "DevTools.js",
+                                        "hash": "a6265d7a01a9a592f02c2860c4e5fa82",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-04T14:37:00",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T14:19:13",
+                                "name": "Echopark.hdr",
+                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-06T12:02:44",
+                                "name": "rope_v01.fbx",
+                                "hash": "3356bdc17a9d156dbfa6f6dc0018d79d",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-06T12:02:44",
+                                "name": "rope.png",
+                                "hash": "443058bc5871834f9ab7a40e18a39f47",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-06T12:02:44",
+                                "name": "hat_v01.fbx",
+                                "hash": "1c6a4e6f302c8a149c2deb3d5e525dd0",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-04T14:19:13",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
                             }
                         ]
                     }
@@ -4799,6 +4838,20 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "1046",
                                 "source": "\/Users\/pavelivasiuk\/Documents\/GitHub\/lensstudio_scripts\/LensStudioHelperScripts\/Public\/Scripts\/DevTools\/DevTools.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "LinkingObject",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "95",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1657109481773944:65586",
+                                "fileId": "220",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1064",
+                                "source": "\/Users\/pavelivasiuk\/Documents\/GitHub\/lensstudio_scripts\/LensStudioHelperScripts\/Public\/Scripts\/LinkingObject\/LinkingObject.js",
                                 "additional": ""
                             }
                         ]
@@ -5862,15 +5915,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1656944658365759:590011",
-                        "path_list": [
-                            "Materials",
-                            "Desert",
-                            "scroll"
-                        ]
-                    }
+                "objects": [
+                    "1657109444213904:61022"
                 ]
             }
         },
