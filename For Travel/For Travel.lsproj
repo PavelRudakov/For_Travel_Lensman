@@ -3,7 +3,7 @@
     "document_id": "Ds-qSwqhzspoh2LWCl7h",
     "original_document_id": "Ds-qSwqhzspoh2LWCl7h",
     "version": "29",
-    "lastChanged": "1659019354397",
+    "lastChanged": "1659029905187",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -32,7 +32,16 @@
             "collapsedList": [
                 [
                     [
+                        "BindTransform"
+                    ],
+                    [
                         "Device Camera Texture"
+                    ],
+                    [
+                        "Eagle 1"
+                    ],
+                    [
+                        "Eagle 2"
                     ],
                     [
                         "Echopark"
@@ -44,9 +53,6 @@
                     [
                         "Echopark",
                         "Specular"
-                    ],
-                    [
-                        "Materials"
                     ],
                     [
                         "Materials",
@@ -99,6 +105,16 @@
                     [
                         "Materials",
                         "Jungle",
+                        "body tucan"
+                    ],
+                    [
+                        "Materials",
+                        "Jungle",
+                        "bottom mouth tucan"
+                    ],
+                    [
+                        "Materials",
+                        "Jungle",
                         "bushes"
                     ],
                     [
@@ -115,6 +131,16 @@
                         "Materials",
                         "Jungle",
                         "scarf"
+                    ],
+                    [
+                        "Materials",
+                        "Jungle",
+                        "tail tucan"
+                    ],
+                    [
+                        "Materials",
+                        "Jungle",
+                        "top mouth tucan"
                     ],
                     [
                         "Materials",
@@ -187,7 +213,27 @@
                     [
                         "Materials",
                         "Sea",
+                        "Fish 1"
+                    ],
+                    [
+                        "Materials",
+                        "Sea",
+                        "Fish 2"
+                    ],
+                    [
+                        "Materials",
+                        "Sea",
+                        "Fish 3"
+                    ],
+                    [
+                        "Materials",
+                        "Sea",
                         "Ray"
+                    ],
+                    [
+                        "Materials",
+                        "Sea",
+                        "Sea back"
                     ],
                     [
                         "Materials",
@@ -266,6 +312,9 @@
                         "SwitchObjectByEvent"
                     ],
                     [
+                        "Textures"
+                    ],
+                    [
                         "Textures",
                         "Body Segmentation"
                     ],
@@ -330,6 +379,16 @@
                     [
                         "Textures",
                         "Jungle",
+                        "body tucan"
+                    ],
+                    [
+                        "Textures",
+                        "Jungle",
+                        "bottom mouth tucan"
+                    ],
+                    [
+                        "Textures",
+                        "Jungle",
                         "bushes"
                     ],
                     [
@@ -364,11 +423,25 @@
                     ],
                     [
                         "Textures",
+                        "Jungle",
+                        "tail tucan"
+                    ],
+                    [
+                        "Textures",
+                        "Jungle",
+                        "top mouth tucan"
+                    ],
+                    [
+                        "Textures",
                         "PE_Wave_Vector 2"
                     ],
                     [
                         "Textures",
                         "Particles Texture"
+                    ],
+                    [
+                        "Textures",
+                        "Rocks"
                     ],
                     [
                         "Textures",
@@ -461,6 +534,21 @@
                     [
                         "Textures",
                         "Sea",
+                        "fish"
+                    ],
+                    [
+                        "Textures",
+                        "Sea",
+                        "fish 2"
+                    ],
+                    [
+                        "Textures",
+                        "Sea",
+                        "fish 3"
+                    ],
+                    [
+                        "Textures",
+                        "Sea",
                         "sand-sea"
                     ],
                     [
@@ -485,6 +573,9 @@
                     [
                         "Textures",
                         "white0"
+                    ],
+                    [
+                        "Tween"
                     ],
                     [
                         "Tween",
@@ -617,6 +708,12 @@
                     ],
                     [
                         "bubbles"
+                    ],
+                    [
+                        "eagle_1"
+                    ],
+                    [
+                        "eagle_2"
                     ],
                     [
                         "meshes"
@@ -952,24 +1049,31 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "101:100",
                     "1517446348227994:84813",
-                    "1656671919213264:308971",
+                    "1656671891651096:303113",
                     "1656671919213479:308972",
                     "1656923674306536:293205",
                     "1656932539773304:140987",
+                    "1656933943905929:15474",
                     "1656947945021493:1004582",
                     "1656948435190540:1106613",
                     "1656948933382089:1241100",
+                    "1656950444039514:1457725",
                     "1656950495400112:1472751",
                     "1656950495408433:1472777",
+                    "1657005435840718:140395",
                     "1657028587087224:1954493",
                     "1657036406121559:2626828",
                     "1657097398221384:251409",
+                    "1657109359721757:24518",
                     "1657189179216667:152691",
                     "1657190599639077:406924",
                     "1658844410416742:64845",
                     "1659012864664693:210497",
-                    "1659012920105591:236852"
+                    "1659013029217147:273864",
+                    "1659013062341487:285621",
+                    "1659027200501126:41296"
                 ]
             ],
             "selectionSetList": ""
@@ -997,7 +1101,7 @@
             "preview_videos_project_config": {
                 "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Videos\/Idle Person 1.webm",
+                "front_preview_id": "bundle:Preview\/Videos\/Smile Person 1.webm",
                 "front_preview_is_favorite": "false"
             },
             "preview_ie_project_config": {
@@ -1010,7 +1114,9 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
-                    "1658844410420948:64915"
+                    "1658844410420948:64915",
+                    "1659029227082632:638420",
+                    "1659029575570842:839734"
                 ]
             ]
         },
@@ -1021,13 +1127,13 @@
             "mapPinPoints": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1659012618919531:117452"
+            "active_graph_asset": "1659027346307267:75969"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
         },
         "VFX::UiComponent": {
-            "active_graph_asset": "1657284162145057:29445"
+            "active_graph_asset": "-1:-1"
         }
     },
     "model": {
@@ -2440,6 +2546,166 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "231",
+                    "uid": "1659025758412703:58039",
+                    "name": "Files\/File511.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "232",
+                    "uid": "1659025758580569:58058",
+                    "name": "Files\/File514.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "233",
+                    "uid": "1659025759395424:61615",
+                    "name": "Files\/File517.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "234",
+                    "uid": "1659025760527320:65182",
+                    "name": "Files\/File521.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "235",
+                    "uid": "1659025844264381:92118",
+                    "name": "Files\/File527",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "236",
+                    "uid": "1659027179850408:37001",
+                    "name": "Files\/File529.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "237",
+                    "uid": "1659027346307267:75969",
+                    "name": "Files\/File530",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "238",
+                    "uid": "1659027515629946:107888",
+                    "name": "Files\/File532",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "239",
+                    "uid": "1659027881434137:191869",
+                    "name": "Files\/File534",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "240",
+                    "uid": "1659028244653089:254973",
+                    "name": "Files\/File536.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "241",
+                    "uid": "1659028244959254:254998",
+                    "name": "Files\/File539.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "242",
+                    "uid": "1659028245566882:258732",
+                    "name": "Files\/File542.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "243",
+                    "uid": "1659028390536064:291849",
+                    "name": "Files\/File548",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "244",
+                    "uid": "1659028493543383:325771",
+                    "name": "Files\/File550",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "245",
+                    "uid": "1659028647171137:414694",
+                    "name": "Files\/File552",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "246",
+                    "uid": "1659028804199718:519239",
+                    "name": "Files\/File554",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "247",
+                    "uid": "1659028998364787:557486",
+                    "name": "Files\/File556.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "248",
+                    "uid": "1659028998752562:557756",
+                    "name": "Files\/File559.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "249",
+                    "uid": "1659029195015264:619654",
+                    "name": "Files\/File564",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "250",
+                    "uid": "1659029207597650:628619",
+                    "name": "Files\/File566",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3058,6 +3324,76 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1659028485498230:313018",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1659028654038099:419731",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1659028795425758:505747",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1659029062956505:575285",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1659029612483209:876081",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -3207,7 +3543,19 @@
                 "138": "1659017966340462:1048963",
                 "139": "1659017990882716:1065798",
                 "140": "1659018061317561:1113336",
-                "141": "1659018100841837:1135882"
+                "141": "1659018100841837:1135882",
+                "142": "1659025782268067:77113",
+                "143": "1659025966819949:114299",
+                "144": "1659027189245851:40937",
+                "145": "1659027200501126:41296",
+                "146": "1659027593677896:122463",
+                "147": "1659027607359606:134146",
+                "148": "1659027868795740:184069",
+                "149": "1659028485497739:313017",
+                "150": "1659028654019140:419494",
+                "151": "1659028795400565:505510",
+                "152": "1659029062956233:575284",
+                "153": "1659029612454758:875844"
             }
         },
         "LayerComponent": {
@@ -4811,6 +5159,234 @@
                 {
                     "k": "510",
                     "v": "Files\/File510.lsmat"
+                },
+                {
+                    "k": "511",
+                    "v": "Files\/File511.pvr"
+                },
+                {
+                    "k": "512",
+                    "v": "Files\/File512.png"
+                },
+                {
+                    "k": "513",
+                    "v": "Files\/File513.png"
+                },
+                {
+                    "k": "514",
+                    "v": "Files\/File514.pvr"
+                },
+                {
+                    "k": "515",
+                    "v": "Files\/File515.png"
+                },
+                {
+                    "k": "516",
+                    "v": "Files\/File516.png"
+                },
+                {
+                    "k": "517",
+                    "v": "Files\/File517.pvr"
+                },
+                {
+                    "k": "518",
+                    "v": "Files\/File518.png"
+                },
+                {
+                    "k": "519",
+                    "v": "Files\/File519.png"
+                },
+                {
+                    "k": "520",
+                    "v": "Files\/File520.pvr"
+                },
+                {
+                    "k": "521",
+                    "v": "Files\/File521.pvr"
+                },
+                {
+                    "k": "522",
+                    "v": "Files\/File522.png"
+                },
+                {
+                    "k": "523",
+                    "v": "Files\/File523.png"
+                },
+                {
+                    "k": "524",
+                    "v": "Files\/File524.pvr"
+                },
+                {
+                    "k": "525",
+                    "v": "Files\/File525.pvr"
+                },
+                {
+                    "k": "526",
+                    "v": "Files\/File526.pvr"
+                },
+                {
+                    "k": "527",
+                    "v": "Files\/File527"
+                },
+                {
+                    "k": "528",
+                    "v": "Files\/File528.lsmat"
+                },
+                {
+                    "k": "529",
+                    "v": "Files\/File529.js"
+                },
+                {
+                    "k": "530",
+                    "v": "Files\/File530"
+                },
+                {
+                    "k": "531",
+                    "v": "Files\/File531.lsmat"
+                },
+                {
+                    "k": "532",
+                    "v": "Files\/File532"
+                },
+                {
+                    "k": "533",
+                    "v": "Files\/File533.lsmat"
+                },
+                {
+                    "k": "534",
+                    "v": "Files\/File534"
+                },
+                {
+                    "k": "535",
+                    "v": "Files\/File535.lsmat"
+                },
+                {
+                    "k": "536",
+                    "v": "Files\/File536.pvr"
+                },
+                {
+                    "k": "537",
+                    "v": "Files\/File537.png"
+                },
+                {
+                    "k": "538",
+                    "v": "Files\/File538.png"
+                },
+                {
+                    "k": "539",
+                    "v": "Files\/File539.pvr"
+                },
+                {
+                    "k": "540",
+                    "v": "Files\/File540.png"
+                },
+                {
+                    "k": "541",
+                    "v": "Files\/File541.png"
+                },
+                {
+                    "k": "542",
+                    "v": "Files\/File542.pvr"
+                },
+                {
+                    "k": "543",
+                    "v": "Files\/File543.png"
+                },
+                {
+                    "k": "544",
+                    "v": "Files\/File544.png"
+                },
+                {
+                    "k": "545",
+                    "v": "Files\/File545.pvr"
+                },
+                {
+                    "k": "546",
+                    "v": "Files\/File546.pvr"
+                },
+                {
+                    "k": "547",
+                    "v": "Files\/File547.pvr"
+                },
+                {
+                    "k": "548",
+                    "v": "Files\/File548"
+                },
+                {
+                    "k": "549",
+                    "v": "Files\/File549.lsmat"
+                },
+                {
+                    "k": "550",
+                    "v": "Files\/File550"
+                },
+                {
+                    "k": "551",
+                    "v": "Files\/File551.lsmat"
+                },
+                {
+                    "k": "552",
+                    "v": "Files\/File552"
+                },
+                {
+                    "k": "553",
+                    "v": "Files\/File553.lsmat"
+                },
+                {
+                    "k": "554",
+                    "v": "Files\/File554"
+                },
+                {
+                    "k": "555",
+                    "v": "Files\/File555.lsmat"
+                },
+                {
+                    "k": "556",
+                    "v": "Files\/File556.pvr"
+                },
+                {
+                    "k": "557",
+                    "v": "Files\/File557.png"
+                },
+                {
+                    "k": "558",
+                    "v": "Files\/File558.png"
+                },
+                {
+                    "k": "559",
+                    "v": "Files\/File559.pvr"
+                },
+                {
+                    "k": "560",
+                    "v": "Files\/File560.png"
+                },
+                {
+                    "k": "561",
+                    "v": "Files\/File561.png"
+                },
+                {
+                    "k": "562",
+                    "v": "Files\/File562.pvr"
+                },
+                {
+                    "k": "563",
+                    "v": "Files\/File563.pvr"
+                },
+                {
+                    "k": "564",
+                    "v": "Files\/File564"
+                },
+                {
+                    "k": "565",
+                    "v": "Files\/File565.lsmat"
+                },
+                {
+                    "k": "566",
+                    "v": "Files\/File566"
+                },
+                {
+                    "k": "567",
+                    "v": "Files\/File567.lsmat"
                 }
             ]
         },
@@ -5460,6 +6036,86 @@
                     {
                         "k": "1175",
                         "v": "Materials\/Rocks\/Trees.lsmat"
+                    },
+                    {
+                        "k": "1176",
+                        "v": "Textures\/Jungle\/top mouth tucan.png"
+                    },
+                    {
+                        "k": "1177",
+                        "v": "Textures\/Jungle\/body tucan.png"
+                    },
+                    {
+                        "k": "1178",
+                        "v": "Textures\/Jungle\/bottom mouth tucan.png"
+                    },
+                    {
+                        "k": "1179",
+                        "v": "Textures\/Jungle\/tail tucan.png"
+                    },
+                    {
+                        "k": "1180",
+                        "v": "Materials\/Jungle\/body tucan.lsmat"
+                    },
+                    {
+                        "k": "1181",
+                        "v": "BindTransform.js"
+                    },
+                    {
+                        "k": "1182",
+                        "v": "Materials\/Jungle\/top mouth tucan.lsmat"
+                    },
+                    {
+                        "k": "1183",
+                        "v": "Materials\/Jungle\/bottom mouth tucan.lsmat"
+                    },
+                    {
+                        "k": "1184",
+                        "v": "Materials\/Jungle\/tail tucan.lsmat"
+                    },
+                    {
+                        "k": "1185",
+                        "v": "Textures\/Sea\/fish.png"
+                    },
+                    {
+                        "k": "1186",
+                        "v": "Textures\/Sea\/fish 2.png"
+                    },
+                    {
+                        "k": "1187",
+                        "v": "Textures\/Sea\/fish 3.png"
+                    },
+                    {
+                        "k": "1188",
+                        "v": "Materials\/Sea\/Sea back.lsmat"
+                    },
+                    {
+                        "k": "1189",
+                        "v": "Materials\/Sea\/Fish 1.lsmat"
+                    },
+                    {
+                        "k": "1190",
+                        "v": "Materials\/Sea\/Fish 2.lsmat"
+                    },
+                    {
+                        "k": "1191",
+                        "v": "Materials\/Sea\/Fish 3.lsmat"
+                    },
+                    {
+                        "k": "1192",
+                        "v": "eagle_1.png"
+                    },
+                    {
+                        "k": "1193",
+                        "v": "eagle_2.png"
+                    },
+                    {
+                        "k": "1194",
+                        "v": "Eagle 1.lsmat"
+                    },
+                    {
+                        "k": "1195",
+                        "v": "Eagle 2.lsmat"
                     }
                 ],
                 "hashes": [
@@ -6154,20 +6810,135 @@
                     {
                         "k": "1175",
                         "v": "309f6d0c91c84f5b52ab2c145d430374"
+                    },
+                    {
+                        "k": "1176",
+                        "v": "d03f43f16a8ad638eda12e7ed6c40c43"
+                    },
+                    {
+                        "k": "1177",
+                        "v": "5d1268cd68618aa6f081e41edaf9382e"
+                    },
+                    {
+                        "k": "1178",
+                        "v": "3f64baf6d5245c3d4f8ace41098a5751"
+                    },
+                    {
+                        "k": "1179",
+                        "v": "b97054b44a8318ca79ee5a81c3554539"
+                    },
+                    {
+                        "k": "1180",
+                        "v": "2248546f7ce8b5842a2378ff2d049627"
+                    },
+                    {
+                        "k": "1181",
+                        "v": "c31e85b05a5e161f19afa673cd90271a"
+                    },
+                    {
+                        "k": "1182",
+                        "v": "0e81746cba28e097763a017a15d0affa"
+                    },
+                    {
+                        "k": "1183",
+                        "v": "097695dc93b0fb0797d562a713ae7db1"
+                    },
+                    {
+                        "k": "1184",
+                        "v": "c03088d49fb3f9d6ec14666cd61679bf"
+                    },
+                    {
+                        "k": "1185",
+                        "v": "ce09a5046db41d34bb0fc2511f6f219e"
+                    },
+                    {
+                        "k": "1186",
+                        "v": "0853ab0430dedec160deb4f1d201fd56"
+                    },
+                    {
+                        "k": "1187",
+                        "v": "d77db9c0a6af1c1dc99a22431dc0e7b8"
+                    },
+                    {
+                        "k": "1188",
+                        "v": "3ac27d98535b81b28ffcaf78697e8089"
+                    },
+                    {
+                        "k": "1189",
+                        "v": "05673b9d692b196717f499d82ed6375f"
+                    },
+                    {
+                        "k": "1190",
+                        "v": "e91b6772f6af30b135c32f1d723786e4"
+                    },
+                    {
+                        "k": "1191",
+                        "v": "8988fc33dfe822a7ad0b1feca4eb07c6"
+                    },
+                    {
+                        "k": "1192",
+                        "v": "689f0049aa925b7bcc08bebd7653e918"
+                    },
+                    {
+                        "k": "1193",
+                        "v": "5dbef155867540198e30d8afcdeb28e5"
+                    },
+                    {
+                        "k": "1194",
+                        "v": "9a254aea4cccd5415501bad90d2d62d0"
+                    },
+                    {
+                        "k": "1195",
+                        "v": "119c85588641c7f4f7ea6eb9f5240c5a"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-07-28T17:40:49",
+                        "lastModified": "2022-07-28T20:26:47",
                         "name": "Public",
-                        "hash": "dc04f3301ad64ef0bc12eda23d1c459b",
+                        "hash": "81c05a78837508c1760bb5f87a5c889c",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-07-28T15:40:16",
+                                "lastModified": "2022-07-28T19:42:30",
+                                "name": "BindTransform.js",
+                                "hash": "c31e85b05a5e161f19afa673cd90271a",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-28T19:22:16",
                                 "name": "bubbles.lsvfx",
                                 "hash": "580df382fa893fdf53f35d239b09bd23",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-28T20:26:35",
+                                "name": "Eagle 1.lsmat",
+                                "hash": "9a254aea4cccd5415501bad90d2d62d0",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-28T20:26:47",
+                                "name": "Eagle 2.lsmat",
+                                "hash": "119c85588641c7f4f7ea6eb9f5240c5a",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-28T18:35:49",
+                                "name": "eagle_1.png",
+                                "hash": "689f0049aa925b7bcc08bebd7653e918",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-07-28T18:36:02",
+                                "name": "eagle_2.png",
+                                "hash": "5dbef155867540198e30d8afcdeb28e5",
                                 "children": ""
                             },
                             {
@@ -6188,11 +6959,11 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-07-28T17:02:09",
                                 "name": "Materials",
-                                "hash": "c4bd7c7b2c1f445c5cd6196254136ca1",
+                                "hash": "4f323a27bc6043cc8a2046efd2408985",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-26T16:59:48",
+                                        "lastModified": "2022-07-28T19:22:16",
                                         "name": "Desert",
                                         "hash": "dccf9c008565cee53490e725b2177519",
                                         "children": [
@@ -6205,56 +6976,56 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "glow.lsmat",
                                                 "hash": "7221e3e5560cc9258c54fac9c34d7fb7",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Hat.lsmat",
                                                 "hash": "40adc1f42ab9c4eed8b43763489f749b",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Heat distortion.lsmat",
                                                 "hash": "e6185b0402b0d5cd5eae102634cd7c40",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "orange back.lsmat",
                                                 "hash": "9f421398c7ef5381c2aef58ca7959571",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "scroll.lsmat",
                                                 "hash": "95b1226f00cdc176e439cd78715dbb68",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "sun.lsmat",
                                                 "hash": "8afbc5efaed1699bb2e57d915c22f42f",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Unlit piramids.lsmat",
                                                 "hash": "d3080d0a4c4b153ad6e6a2e20f0fc86c",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Unlit sand.lsmat",
                                                 "hash": "581ed7235f10e29463cfe9a15e77ff89",
                                                 "children": ""
@@ -6270,13 +7041,27 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-26T16:59:48",
+                                        "lastModified": "2022-07-28T20:10:59",
                                         "name": "Jungle",
-                                        "hash": "9aededa80a168c25c3af508f18e7e7e6",
+                                        "hash": "dea00cee0fb66ae52d8cb462f240d052",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:52:29",
+                                                "name": "body tucan.lsmat",
+                                                "hash": "2248546f7ce8b5842a2378ff2d049627",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:07:55",
+                                                "name": "bottom mouth tucan.lsmat",
+                                                "hash": "097695dc93b0fb0797d562a713ae7db1",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "bushes.lsmat",
                                                 "hash": "eedebdf1c0c82ea9a8d788423cce276f",
                                                 "children": ""
@@ -6290,57 +7075,71 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:11",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "hat.lsmat",
                                                 "hash": "14cf2e72ed80e86a1c7ed5831d75feef",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "rope.lsmat",
                                                 "hash": "89cc33727b83db7619838d073e012daf",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "scarf.lsmat",
                                                 "hash": "a6f51c28c6ba58ccc888f3dc009bb9f1",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:07:55",
+                                                "name": "tail tucan.lsmat",
+                                                "hash": "c03088d49fb3f9d6ec14666cd61679bf",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:07:54",
+                                                "name": "top mouth tucan.lsmat",
+                                                "hash": "0e81746cba28e097763a017a15d0affa",
                                                 "children": ""
                                             }
                                         ]
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-28T17:40:39",
+                                        "lastModified": "2022-07-28T19:22:16",
                                         "name": "Rocks",
                                         "hash": "55f7976a51433bfc78106b64d90ef777",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T16:29:58",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Arrow compas.lsmat",
                                                 "hash": "49b47b148cb1dd793c7717e357e806d6",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T16:15:51",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "back backpack 2.lsmat",
                                                 "hash": "5d6092b9e71af0862d49c45544b57a33",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T15:50:19",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Caps.lsmat",
                                                 "hash": "e518d3539af05d5d275a312d7cd3d50b",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T16:24:24",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Compas.lsmat",
                                                 "hash": "2794e899f4db5399d84d49f98727023a",
                                                 "children": ""
@@ -6354,49 +7153,49 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T16:10:10",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "front backpack.lsmat",
                                                 "hash": "a16b092262f15ab6841b982a2bedca9d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T17:07:04",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Gradient back.lsmat",
                                                 "hash": "41983fd4e8596ffb3f64f5a64f499f7d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T17:00:19",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "grass.lsmat",
                                                 "hash": "5536f7b66ceb5bc571f94ba24882f296",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T17:21:15",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "rocks 2.lsmat",
                                                 "hash": "fc7396e2aa65b8a001eb07d6313460c4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T17:21:17",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Tree 2.lsmat",
                                                 "hash": "bfcdc4db03c10d3dd060d0aff3603160",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T17:21:17",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Tree.lsmat",
                                                 "hash": "74e486242029c1589e906c177c06c86f",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-28T17:21:46",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Trees.lsmat",
                                                 "hash": "309f6d0c91c84f5b52ab2c145d430374",
                                                 "children": ""
@@ -6405,29 +7204,50 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-26T16:59:48",
+                                        "lastModified": "2022-07-28T20:25:03",
                                         "name": "Sea",
-                                        "hash": "db45556657fcfddd69db835e81d4a12d",
+                                        "hash": "9f4d2ddc967c3e0f3a83c33befda418d",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:13",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "back corals 2.lsmat",
                                                 "hash": "4f59bb8c92e1c0a537e43da94851a2a7",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "back corals.lsmat",
                                                 "hash": "f5abd3e8587626ec909db2d7130d4471",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Coral_big_1.lsmat",
                                                 "hash": "eb26f6330a4511a14691bd4f67aa672b",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:24:25",
+                                                "name": "Fish 1.lsmat",
+                                                "hash": "05673b9d692b196717f499d82ed6375f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:24:25",
+                                                "name": "Fish 2.lsmat",
+                                                "hash": "e91b6772f6af30b135c32f1d723786e4",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:24:25",
+                                                "name": "Fish 3.lsmat",
+                                                "hash": "8988fc33dfe822a7ad0b1feca4eb07c6",
                                                 "children": ""
                                             },
                                             {
@@ -6439,42 +7259,49 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Ray.lsmat",
                                                 "hash": "2582c3bf4c3e76c0f45ec82aacbe24d0",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "sand sea.lsmat",
                                                 "hash": "0f5312a2059ce6cbceb3557f53f9e6a3",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T20:13:11",
+                                                "name": "Sea back.lsmat",
+                                                "hash": "3ac27d98535b81b28ffcaf78697e8089",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Sea mask.lsmat",
                                                 "hash": "79b46035955d9d1735c1d33b4d6950f9",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Seaweed left.lsmat",
                                                 "hash": "05a4c896bb881aa0a31f4b4e861d0c64",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Seaweed right.lsmat",
                                                 "hash": "90b34a2b65152cfa8a44c14b3d84e8e2",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-07-26T16:59:12",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Wave distortion.lsmat",
                                                 "hash": "4bf422f9a001fff1d001958b02d69b1a",
                                                 "children": ""
@@ -6630,7 +7457,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-07-28T15:53:01",
                                 "name": "Textures",
-                                "hash": "9df093405e4046e88149edb8b21d19a3",
+                                "hash": "a69d63dec647a36b3040fbfc3742e6a2",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -6747,10 +7574,24 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-28T15:52:21",
+                                        "lastModified": "2022-07-28T19:29:20",
                                         "name": "Jungle",
-                                        "hash": "91c7c1aa7c7087c019235e2405e3dd15",
+                                        "hash": "5ab3f25dcc5beecad4c499dc7683c602",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T19:28:14",
+                                                "name": "body tucan.png",
+                                                "hash": "5d1268cd68618aa6f081e41edaf9382e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T19:27:30",
+                                                "name": "bottom mouth tucan.png",
+                                                "hash": "3f64baf6d5245c3d4f8ace41098a5751",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2022-07-26T16:59:17",
@@ -6854,6 +7695,20 @@
                                                 "lastModified": "2022-07-04T18:54:59",
                                                 "name": "scarf.png",
                                                 "hash": "7d2421e33be1c98b44f5cfb972b64a6d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T19:28:46",
+                                                "name": "tail tucan.png",
+                                                "hash": "b97054b44a8318ca79ee5a81c3554539",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T19:27:14",
+                                                "name": "top mouth tucan.png",
+                                                "hash": "d03f43f16a8ad638eda12e7ed6c40c43",
                                                 "children": ""
                                             }
                                         ]
@@ -6966,9 +7821,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-28T15:52:35",
+                                        "lastModified": "2022-07-28T20:25:14",
                                         "name": "Sea",
-                                        "hash": "e5e7119259454057ee74a79b3929283c",
+                                        "hash": "19f9dc5c474e6e3b728b417997f41ba2",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -7017,6 +7872,27 @@
                                                 "lastModified": "2022-07-07T14:06:35",
                                                 "name": "coral-big_1.png",
                                                 "hash": "6f01a5806507395ea6b75124a0b0c9c0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:10:29",
+                                                "name": "fish 2.png",
+                                                "hash": "0853ab0430dedec160deb4f1d201fd56",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:10:29",
+                                                "name": "fish 3.png",
+                                                "hash": "d77db9c0a6af1c1dc99a22431dc0e7b8",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-07-28T20:10:29",
+                                                "name": "fish.png",
+                                                "hash": "ce09a5046db41d34bb0fc2511f6f219e",
                                                 "children": ""
                                             },
                                             {
@@ -7142,7 +8018,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-07-26T16:59:48",
+                                                "lastModified": "2022-07-28T19:22:16",
                                                 "name": "Materials",
                                                 "hash": "9eb92ed5667aef5a377752495bcb0585",
                                                 "children": [
@@ -7155,21 +8031,21 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-07-26T16:59:13",
+                                                        "lastModified": "2022-07-28T19:22:16",
                                                         "name": "TweenBoxDiffuse.lsmat",
                                                         "hash": "1737949a67ec0a9c405951dcd44b097a",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-07-26T16:59:13",
+                                                        "lastModified": "2022-07-28T19:22:16",
                                                         "name": "TweenBoxDiffuse_Alt.lsmat",
                                                         "hash": "eab52faf1a9f1f703492bcdf2226b8b9",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-07-26T16:59:13",
+                                                        "lastModified": "2022-07-28T19:22:16",
                                                         "name": "TweenSphereDiffuse.lsmat",
                                                         "hash": "03eb9ac4f507274904d7d3382d0cc5ef",
                                                         "children": ""
@@ -7952,6 +8828,70 @@
                                         "additional": {
                                             "originHash": "7d2421e33be1c98b44f5cfb972b64a6d"
                                         }
+                                    },
+                                    {
+                                        "name": "top mouth tucan",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "231",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659025758412703:58039",
+                                        "fileId": "511",
+                                        "originalId": "512",
+                                        "publicId": "1176",
+                                        "source": "D:\/internal project\/top mouth tucan.png",
+                                        "additional": {
+                                            "originHash": "d03f43f16a8ad638eda12e7ed6c40c43"
+                                        }
+                                    },
+                                    {
+                                        "name": "body tucan",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "232",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659025758580569:58058",
+                                        "fileId": "514",
+                                        "originalId": "515",
+                                        "publicId": "1177",
+                                        "source": "D:\/internal project\/body tucan.png",
+                                        "additional": {
+                                            "originHash": "5d1268cd68618aa6f081e41edaf9382e"
+                                        }
+                                    },
+                                    {
+                                        "name": "bottom mouth tucan",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "233",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659025759395424:61615",
+                                        "fileId": "517",
+                                        "originalId": "518",
+                                        "publicId": "1178",
+                                        "source": "D:\/internal project\/bottom mouth tucan.png",
+                                        "additional": {
+                                            "originHash": "3f64baf6d5245c3d4f8ace41098a5751"
+                                        }
+                                    },
+                                    {
+                                        "name": "tail tucan",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "234",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659025760527320:65182",
+                                        "fileId": "521",
+                                        "originalId": "522",
+                                        "publicId": "1179",
+                                        "source": "D:\/internal project\/tail tucan.png",
+                                        "additional": {
+                                            "originHash": "b97054b44a8318ca79ee5a81c3554539"
+                                        }
                                     }
                                 ]
                             },
@@ -8239,6 +9179,54 @@
                                         "source": "D:\/internal project\/back-corals_1.png",
                                         "additional": {
                                             "originHash": "6ba8535a8c984b7e47ae32dc7c9bb758"
+                                        }
+                                    },
+                                    {
+                                        "name": "fish",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "240",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028244653089:254973",
+                                        "fileId": "536",
+                                        "originalId": "537",
+                                        "publicId": "1185",
+                                        "source": "D:\/internal project\/fish.png",
+                                        "additional": {
+                                            "originHash": "ce09a5046db41d34bb0fc2511f6f219e"
+                                        }
+                                    },
+                                    {
+                                        "name": "fish 2",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "241",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028244959254:254998",
+                                        "fileId": "539",
+                                        "originalId": "540",
+                                        "publicId": "1186",
+                                        "source": "D:\/internal project\/fish 2.png",
+                                        "additional": {
+                                            "originHash": "0853ab0430dedec160deb4f1d201fd56"
+                                        }
+                                    },
+                                    {
+                                        "name": "fish 3",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "242",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028245566882:258732",
+                                        "fileId": "542",
+                                        "originalId": "543",
+                                        "publicId": "1187",
+                                        "source": "D:\/internal project\/fish 3.png",
+                                        "additional": {
+                                            "originHash": "d77db9c0a6af1c1dc99a22431dc0e7b8"
                                         }
                                     }
                                 ]
@@ -8726,6 +9714,62 @@
                                         "publicId": "1060",
                                         "source": "",
                                         "additional": ""
+                                    },
+                                    {
+                                        "name": "body tucan",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "235",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659025844264381:92118",
+                                        "fileId": "527",
+                                        "originalId": "528",
+                                        "publicId": "1180",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "top mouth tucan",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "237",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659027346307267:75969",
+                                        "fileId": "530",
+                                        "originalId": "531",
+                                        "publicId": "1182",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "bottom mouth tucan",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "238",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659027515629946:107888",
+                                        "fileId": "532",
+                                        "originalId": "533",
+                                        "publicId": "1183",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "tail tucan",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "239",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659027881434137:191869",
+                                        "fileId": "534",
+                                        "originalId": "535",
+                                        "publicId": "1184",
+                                        "source": "",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -8866,6 +9910,62 @@
                                         "fileId": "332",
                                         "originalId": "333",
                                         "publicId": "1119",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Sea back",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "243",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028390536064:291849",
+                                        "fileId": "548",
+                                        "originalId": "549",
+                                        "publicId": "1188",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Fish 1",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "244",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028493543383:325771",
+                                        "fileId": "550",
+                                        "originalId": "551",
+                                        "publicId": "1189",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Fish 2",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "245",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028647171137:414694",
+                                        "fileId": "552",
+                                        "originalId": "553",
+                                        "publicId": "1190",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Fish 3",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "246",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659028804199718:519239",
+                                        "fileId": "554",
+                                        "originalId": "555",
+                                        "publicId": "1191",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -10898,6 +11998,80 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "BindTransform",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "236",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1659027179850408:37001",
+                        "fileId": "529",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1181",
+                        "source": "C:\/Users\/Павло\/Desktop\/BindTransform.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "eagle_2",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "248",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1659028998752562:557756",
+                        "fileId": "559",
+                        "originalId": "560",
+                        "publicId": "1193",
+                        "source": "C:\/Users\/Павло\/Downloads\/Telegram Desktop\/eagle\/eagle_2.png",
+                        "additional": {
+                            "originHash": "5dbef155867540198e30d8afcdeb28e5"
+                        }
+                    },
+                    {
+                        "name": "Eagle 1",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "249",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1659029195015264:619654",
+                        "fileId": "564",
+                        "originalId": "565",
+                        "publicId": "1194",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Eagle 2",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "250",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1659029207597650:628619",
+                        "fileId": "566",
+                        "originalId": "567",
+                        "publicId": "1195",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "eagle_1",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "247",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1659028998364787:557486",
+                        "fileId": "556",
+                        "originalId": "557",
+                        "publicId": "1192",
+                        "source": "C:\/Users\/Павло\/Downloads\/Telegram Desktop\/eagle\/eagle_1.png",
+                        "additional": {
+                            "originHash": "689f0049aa925b7bcc08bebd7653e918"
+                        }
                     }
                 ]
             }
@@ -10905,7 +12079,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1659012920144037:236978"
+                    "1659029612454758:875844"
                 ]
             }
         },
@@ -14350,13 +15524,7 @@
                             }
                         },
                         "uncompressed_file": "486",
-                        "compressed_files": "",
-                        "desiredSettings": {
-                            "isCompressed": "true",
-                            "level": "3",
-                            "type": "0",
-                            "subtype": "9"
-                        }
+                        "compressed_files": ""
                     }
                 },
                 {
@@ -14439,6 +15607,258 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "500"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659025758412703:58039",
+                    "v": {
+                        "infos": {
+                            "originalSize": "22800",
+                            "compressedSize": "7723",
+                            "originalRAM": "122332",
+                            "compressedRAM": "15600",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "513",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "d03f43f16a8ad638eda12e7ed6c40c43",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "520"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659025758580569:58058",
+                    "v": {
+                        "infos": {
+                            "originalSize": "96062",
+                            "compressedSize": "29322",
+                            "originalRAM": "416744",
+                            "compressedRAM": "52896",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "516",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "5d1268cd68618aa6f081e41edaf9382e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "525"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659025759395424:61615",
+                    "v": {
+                        "infos": {
+                            "originalSize": "10751",
+                            "compressedSize": "3997",
+                            "originalRAM": "61732",
+                            "compressedRAM": "8192",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "519",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "3f64baf6d5245c3d4f8ace41098a5751",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "524"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659025760527320:65182",
+                    "v": {
+                        "infos": {
+                            "originalSize": "35883",
+                            "compressedSize": "10700",
+                            "originalRAM": "178944",
+                            "compressedRAM": "22656",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "523",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "b97054b44a8318ca79ee5a81c3554539",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "526"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659028244653089:254973",
+                    "v": {
+                        "infos": {
+                            "originalSize": "5484",
+                            "compressedSize": "2818",
+                            "originalRAM": "120536",
+                            "compressedRAM": "15376",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "538",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "ce09a5046db41d34bb0fc2511f6f219e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "545"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659028244959254:254998",
+                    "v": {
+                        "infos": {
+                            "originalSize": "6739",
+                            "compressedSize": "3688",
+                            "originalRAM": "253440",
+                            "compressedRAM": "31680",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "541",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "0853ab0430dedec160deb4f1d201fd56",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "546"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659028245566882:258732",
+                    "v": {
+                        "infos": {
+                            "originalSize": "5348",
+                            "compressedSize": "2834",
+                            "originalRAM": "217408",
+                            "compressedRAM": "27176",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "544",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "d77db9c0a6af1c1dc99a22431dc0e7b8",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "547"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659028998364787:557486",
+                    "v": {
+                        "infos": {
+                            "originalSize": "947885",
+                            "compressedSize": "297430",
+                            "originalRAM": "14106624",
+                            "compressedRAM": "1765376",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "558",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "689f0049aa925b7bcc08bebd7653e918",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "563"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1659028998752562:557756",
+                    "v": {
+                        "infos": {
+                            "originalSize": "730115",
+                            "compressedSize": "225762",
+                            "originalRAM": "14106624",
+                            "compressedRAM": "1765376",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "561",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "5dbef155867540198e30d8afcdeb28e5",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "562"
                             }
                         ]
                     }
