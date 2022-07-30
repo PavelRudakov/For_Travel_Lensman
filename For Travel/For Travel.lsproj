@@ -3,7 +3,7 @@
     "document_id": "Ds-qSwqhzspoh2LWCl7h",
     "original_document_id": "Ds-qSwqhzspoh2LWCl7h",
     "version": "29",
-    "lastChanged": "1659205663774",
+    "lastChanged": "1659206256827",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -280,6 +280,10 @@
                     ],
                     [
                         "Scripts",
+                        "DesertCallBack"
+                    ],
+                    [
+                        "Scripts",
                         "DevTools"
                     ],
                     [
@@ -289,6 +293,10 @@
                     [
                         "Scripts",
                         "LinkingObject"
+                    ],
+                    [
+                        "Scripts",
+                        "Paralax"
                     ],
                     [
                         "Scripts",
@@ -1048,15 +1056,14 @@
                 [
                     "101:100",
                     "1517446348227994:84813",
-                    "1656671891651096:303113",
                     "1656671919213479:308972",
                     "1656923674306536:293205",
                     "1656923708377905:302408",
-                    "1656932539773304:140987",
                     "1656933943905929:15474",
                     "1656947945021493:1004582",
                     "1656948435190540:1106613",
                     "1656948933382089:1241100",
+                    "1656950426728052:1454763",
                     "1656950444039514:1457725",
                     "1656950495400112:1472751",
                     "1656950495408433:1472777",
@@ -1064,10 +1071,13 @@
                     "1657028587087224:1954493",
                     "1657036406121559:2626828",
                     "1657097398221384:251409",
+                    "1657109359721757:24518",
                     "1657189179216667:152691",
                     "1657190599639077:406924",
                     "1658844410416742:64845",
                     "1659012864664693:210497",
+                    "1659013029217147:273864",
+                    "1659013062341487:285621",
                     "1659027200501126:41296"
                 ]
             ],
@@ -1109,9 +1119,13 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
+                    "1656932539813544:141144",
+                    "1656932539829341:141298",
+                    "1657199029456009:1949018",
                     "1658844410420948:64915",
                     "1659029227082632:638420",
-                    "1659029575570842:839734"
+                    "1659029575570842:839734",
+                    "1659206218801256:438393"
                 ]
             ]
         },
@@ -2701,6 +2715,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "251",
+                    "uid": "1659205880471184:291449",
+                    "name": "Files\/File568.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3554,7 +3576,8 @@
                 "154": "1659205525629368:114831",
                 "155": "1659205540444795:129691",
                 "156": "1659205553294833:139800",
-                "157": "1659205570677873:154928"
+                "157": "1659205570677873:154928",
+                "158": "1659206082594849:350549"
             }
         },
         "LayerComponent": {
@@ -5386,6 +5409,10 @@
                 {
                     "k": "567",
                     "v": "Files\/File567.lsmat"
+                },
+                {
+                    "k": "568",
+                    "v": "Files\/File568.js"
                 }
             ]
         },
@@ -6115,6 +6142,10 @@
                     {
                         "k": "1195",
                         "v": "Eagle 2.lsmat"
+                    },
+                    {
+                        "k": "1196",
+                        "v": "Scripts\/DesertCallBack.js"
                     }
                 ],
                 "hashes": [
@@ -6364,7 +6395,7 @@
                     },
                     {
                         "k": "1045",
-                        "v": "30294c2a3a870b2bfc7147f649c27b32"
+                        "v": "e74126bdb318e3eae1df5eacfb8f6e1b"
                     },
                     {
                         "k": "1046",
@@ -6889,6 +6920,10 @@
                     {
                         "k": "1195",
                         "v": "119c85588641c7f4f7ea6eb9f5240c5a"
+                    },
+                    {
+                        "k": "1196",
+                        "v": "bdd31a322c8e2aa22ea9281e5c43d9a5"
                     }
                 ],
                 "publicState": {
@@ -6896,7 +6931,7 @@
                         "isFolder": "true",
                         "lastModified": "2022-07-30T17:02:24",
                         "name": "Public",
-                        "hash": "e2bd95ef661f124fd90286341b860781",
+                        "hash": "fe14f6a1f3dd3c3ac00a8f68b000bc6d",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -8117,9 +8152,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-30T17:02:24",
+                                "lastModified": "2022-07-30T21:31:35",
                                 "name": "Scripts",
-                                "hash": "be024091b74b5a8eb691263e21d13e77",
+                                "hash": "106b72104fefdea8ebb181b988e8086c",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8140,6 +8175,13 @@
                                         "lastModified": "2022-07-30T17:02:24",
                                         "name": "LinkingObject.js",
                                         "hash": "13d4d338474b37da199618d3f106e01c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-07-30T21:37:21",
+                                        "name": "DesertCallBack.js",
+                                        "hash": "bdd31a322c8e2aa22ea9281e5c43d9a5",
                                         "children": ""
                                     },
                                     {
@@ -8187,9 +8229,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-07-30T17:02:24",
+                                        "lastModified": "2022-07-30T21:36:48",
                                         "name": "SwitchObjectByEvent.js",
-                                        "hash": "30294c2a3a870b2bfc7147f649c27b32",
+                                        "hash": "e74126bdb318e3eae1df5eacfb8f6e1b",
                                         "children": ""
                                     },
                                     {
@@ -10297,6 +10339,20 @@
                                 "publicId": "1064",
                                 "source": "\/Users\/pavelivasiuk\/Documents\/GitHub\/lensstudio_scripts\/LensStudioHelperScripts\/Public\/Scripts\/LinkingObject\/LinkingObject.js",
                                 "additional": ""
+                            },
+                            {
+                                "name": "DesertCallBack",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "251",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1659205880471184:291449",
+                                "fileId": "568",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1196",
+                                "source": "\/Users\/pavelivasiuk\/Library\/Caches\/Snap\/Lens Studio\/temp\/StudiovBlzfiKpasvU\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
                             }
                         ]
                     },
@@ -12078,7 +12134,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1657109444213904:61022"
+                    "1656932539813364:141143"
                 ]
             }
         },

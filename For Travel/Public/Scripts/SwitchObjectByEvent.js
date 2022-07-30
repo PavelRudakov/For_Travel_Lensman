@@ -22,7 +22,7 @@
 //@input bool SnapRecordStop {"showIf":"advanced", "showIfValue":"true"}
 
 //@ui {"widget":"separator"}
-
+//@input Component.ScriptComponent[] callBack
 //@input SceneObject[] objList
 //@input int startValue
 //@input bool isForward
@@ -154,6 +154,10 @@ script.createEvent("SnapRecordStopEvent").bind(function() {
 
 function DoEvent()
 {
+	if(script.callBack[_i]!=null)
+	{
+		script.callBack[_i].api.AwayState();
+	}
 	_i = global.updateSelectedIndexInList(_i,script.objList.length,script.isForward);
     UpdateList(_i);
 }
@@ -165,6 +169,11 @@ function UpdateList(id)
 	}
 
 	script.objList[id].enabled = true;
+
+	if(script.callBack[id]!=null)
+	{
+		script.callBack[id].api.StartState();
+	}
 }
 
 UpdateList(script.startValue);
