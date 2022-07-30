@@ -5,6 +5,7 @@
 
 // @input SceneObject sourceObject
 // @input SceneObject childObject
+// @input SceneObject faceFoundObj
 // @input bool bindPosition
 // @input bool bindRotation
 // @input bool bindScale
@@ -39,14 +40,14 @@ var faceFoundEvent = script.createEvent("FaceFoundEvent");
 faceFoundEvent.faceIndex = 0;
 faceFoundEvent.bind(function (eventData)
 {
-    script.childObject.enabled = true;
+    script.faceFoundObj.enabled = true;
 });
 
 var faceLostEvent = script.createEvent("FaceLostEvent");
 faceLostEvent.faceIndex = 0;
 faceLostEvent.bind(function (eventData)
 {
-    script.childObject.enabled = false;
+    script.faceFoundObj.enabled = false;
 });
 
 function applyTransform() {
