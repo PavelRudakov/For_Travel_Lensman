@@ -3,7 +3,7 @@
     "document_id": "Ds-qSwqhzspoh2LWCl7h",
     "original_document_id": "Ds-qSwqhzspoh2LWCl7h",
     "version": "29",
-    "lastChanged": "1659363127083",
+    "lastChanged": "1659635180443",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -356,6 +356,11 @@
                     [
                         "Textures",
                         "Desert",
+                        "desert-lut"
+                    ],
+                    [
+                        "Textures",
+                        "Desert",
                         "gradient"
                     ],
                     [
@@ -387,6 +392,10 @@
                         "Textures",
                         "Desert",
                         "sun2"
+                    ],
+                    [
+                        "Textures",
+                        "Empty"
                     ],
                     [
                         "Textures",
@@ -431,6 +440,11 @@
                         "Textures",
                         "Jungle",
                         "hat-jungle"
+                    ],
+                    [
+                        "Textures",
+                        "Jungle",
+                        "jungle-lut_1"
                     ],
                     [
                         "Textures",
@@ -542,6 +556,11 @@
                     [
                         "Textures",
                         "Rocks",
+                        "rocks-lut"
+                    ],
+                    [
+                        "Textures",
+                        "Rocks",
                         "tree_1"
                     ],
                     [
@@ -606,6 +625,11 @@
                         "Textures",
                         "Sea",
                         "sand-sea"
+                    ],
+                    [
+                        "Textures",
+                        "Sea",
+                        "sea-lut"
                     ],
                     [
                         "Textures",
@@ -1105,9 +1129,11 @@
                 [
                     "101:100",
                     "1517446348227994:84813",
+                    "1656671891651096:303113",
                     "1656671919213479:308972",
                     "1656923674306536:293205",
                     "1656923708377905:302408",
+                    "1656933943905929:15474",
                     "1656947945021493:1004582",
                     "1656948435190540:1106613",
                     "1656948911269170:1235243",
@@ -1132,7 +1158,11 @@
             "selectionSetList": ""
         },
         "MetaInfoUIComponent": {
-            "hints": "",
+            "icon_hash": "f8b9d45a5f90c1d16d13304fea06d6b9",
+            "icon_path": "icon.png",
+            "hints": [
+                ""
+            ],
             "lens": "Untitled",
             "applicability": "3",
             "lens_descriptors": "",
@@ -1184,7 +1214,7 @@
             "mapPinPoints": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1659362270582199:156019"
+            "active_graph_asset": "-1:-1"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -2819,6 +2849,46 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "258",
+                    "uid": "1659630665400222:55089",
+                    "name": "Files\/File595.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "259",
+                    "uid": "1659630713245895:62816",
+                    "name": "Files\/File597.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "260",
+                    "uid": "1659631337920720:115718",
+                    "name": "Files\/File599.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "261",
+                    "uid": "1659631729149562:165466",
+                    "name": "Files\/File601.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "262",
+                    "uid": "1659632118301889:223544",
+                    "name": "Files\/File603.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3721,7 +3791,12 @@
                 "161": "1659362319477397:195910",
                 "162": "1659362483637360:244429",
                 "163": "1659362510475212:260373",
-                "164": "1659362511223712:265271"
+                "164": "1659362511223712:265271",
+                "165": "1659630713144169:62757",
+                "166": "1659630713144917:62758",
+                "167": "1659631436674398:143746",
+                "168": "1659631732289417:170556",
+                "169": "1659632121854167:228779"
             }
         },
         "LayerComponent": {
@@ -5629,6 +5704,46 @@
                 {
                     "k": "594",
                     "v": "Files\/File594.pvr"
+                },
+                {
+                    "k": "595",
+                    "v": "Files\/File595.png"
+                },
+                {
+                    "k": "596",
+                    "v": "Files\/File596.png"
+                },
+                {
+                    "k": "597",
+                    "v": "Files\/File597.png"
+                },
+                {
+                    "k": "598",
+                    "v": "Files\/File598.png"
+                },
+                {
+                    "k": "599",
+                    "v": "Files\/File599.png"
+                },
+                {
+                    "k": "600",
+                    "v": "Files\/File600.png"
+                },
+                {
+                    "k": "601",
+                    "v": "Files\/File601.png"
+                },
+                {
+                    "k": "602",
+                    "v": "Files\/File602.png"
+                },
+                {
+                    "k": "603",
+                    "v": "Files\/File603.png"
+                },
+                {
+                    "k": "604",
+                    "v": "Files\/File604.png"
                 }
             ]
         },
@@ -6390,6 +6505,26 @@
                     {
                         "k": "1203",
                         "v": "Materials\/Rocks\/cloud 3.lsmat"
+                    },
+                    {
+                        "k": "1204",
+                        "v": "Textures\/Desert\/desert-lut.png"
+                    },
+                    {
+                        "k": "1205",
+                        "v": "Textures\/Empty.png"
+                    },
+                    {
+                        "k": "1206",
+                        "v": "Textures\/Jungle\/jungle-lut_1.png"
+                    },
+                    {
+                        "k": "1207",
+                        "v": "Textures\/Sea\/sea-lut.png"
+                    },
+                    {
+                        "k": "1208",
+                        "v": "Textures\/Rocks\/rocks-lut.png"
                     }
                 ],
                 "hashes": [
@@ -7192,14 +7327,34 @@
                     {
                         "k": "1203",
                         "v": "06b8dee3e4be471b2f065d4852106928"
+                    },
+                    {
+                        "k": "1204",
+                        "v": "f7721e66a28d29a5b5977b6b46c8ba2d"
+                    },
+                    {
+                        "k": "1205",
+                        "v": "176ebd81a6145a98cc0464c9264b7fce"
+                    },
+                    {
+                        "k": "1206",
+                        "v": "6c03dfb4c3195dedc625b26d854e0284"
+                    },
+                    {
+                        "k": "1207",
+                        "v": "8a87fea779baca3653b9013d818d7499"
+                    },
+                    {
+                        "k": "1208",
+                        "v": "88c16a6cd993481b9187856eda466b6d"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-08-01T17:08:51",
+                        "lastModified": "2022-08-04T19:57:29",
                         "name": "Public",
-                        "hash": "1b7b49eb8d31655dda60e5f39c9f37be",
+                        "hash": "cab715f372424b534ee9aaa5cde0f1e3",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -7764,16 +7919,23 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-07-28T15:53:01",
+                                "lastModified": "2022-08-04T19:57:29",
                                 "name": "Textures",
-                                "hash": "a5b0d820821ac150d683d64438a35a03",
+                                "hash": "77db87b8b67c7f1673adccc93eaf6955",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-28T15:51:58",
+                                        "lastModified": "2022-08-04T19:57:21",
                                         "name": "Desert",
-                                        "hash": "a8239ea10733848b262e6ea80223ba71",
+                                        "hash": "7421a4a01a612df96fa5ceb0de102692",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-08-04T19:29:50",
+                                                "name": "desert-lut.png",
+                                                "hash": "f7721e66a28d29a5b5977b6b46c8ba2d",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2022-07-04T11:29:46",
@@ -7876,6 +8038,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2022-07-21T16:54:06",
+                                        "name": "Empty.png",
+                                        "hash": "176ebd81a6145a98cc0464c9264b7fce",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2022-07-01T13:38:39",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -7883,9 +8052,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-28T19:29:20",
+                                        "lastModified": "2022-08-04T19:57:22",
                                         "name": "Jungle",
-                                        "hash": "5ab3f25dcc5beecad4c499dc7683c602",
+                                        "hash": "87f1920ab65635a73b50c3880e97204b",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -7941,6 +8110,13 @@
                                                 "lastModified": "2022-07-04T18:44:09",
                                                 "name": "hat-jungle.png",
                                                 "hash": "ed384dfb70f86cb3879721c19b8671b4",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-08-04T19:42:07",
+                                                "name": "jungle-lut_1.png",
+                                                "hash": "6c03dfb4c3195dedc625b26d854e0284",
                                                 "children": ""
                                             },
                                             {
@@ -8038,9 +8214,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-08-01T17:10:10",
+                                        "lastModified": "2022-08-04T19:57:26",
                                         "name": "Rocks",
-                                        "hash": "8b21a0907f96754853fa55364b8a697a",
+                                        "hash": "e448b1c96d9b5a89ff026073b2429f4d",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -8135,6 +8311,13 @@
                                             },
                                             {
                                                 "isFolder": "false",
+                                                "lastModified": "2022-08-04T19:55:03",
+                                                "name": "rocks-lut.png",
+                                                "hash": "88c16a6cd993481b9187856eda466b6d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
                                                 "lastModified": "2022-07-28T16:47:16",
                                                 "name": "rocks.png",
                                                 "hash": "fcd872da97ff79b5a8edc0b643fc6b99",
@@ -8165,9 +8348,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-07-28T20:25:14",
+                                        "lastModified": "2022-08-04T19:57:24",
                                         "name": "Sea",
-                                        "hash": "19f9dc5c474e6e3b728b417997f41ba2",
+                                        "hash": "d6e1f1d67546729125f20f943511ab70",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -8279,6 +8462,13 @@
                                                 "lastModified": "2022-07-06T11:36:35",
                                                 "name": "sand-sea.png",
                                                 "hash": "02165cf040a82022bfcc022a144ccf3d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-08-04T19:47:57",
+                                                "name": "sea-lut.png",
+                                                "hash": "8a87fea779baca3653b9013d818d7499",
                                                 "children": ""
                                             },
                                             {
@@ -8940,6 +9130,22 @@
                                         "additional": {
                                             "originHash": "21e3ca844bc0f70e6d1b3d326c5b3f91"
                                         }
+                                    },
+                                    {
+                                        "name": "desert-lut",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "258",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659630665400222:55089",
+                                        "fileId": "595",
+                                        "originalId": "596",
+                                        "publicId": "1204",
+                                        "source": "D:\/internal project\/camping-lut.png",
+                                        "additional": {
+                                            "originHash": "f7721e66a28d29a5b5977b6b46c8ba2d"
+                                        }
                                     }
                                 ]
                             },
@@ -9257,6 +9463,22 @@
                                         "source": "D:\/internal project\/tail tucan.png",
                                         "additional": {
                                             "originHash": "b97054b44a8318ca79ee5a81c3554539"
+                                        }
+                                    },
+                                    {
+                                        "name": "jungle-lut_1",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "260",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659631337920720:115718",
+                                        "fileId": "599",
+                                        "originalId": "600",
+                                        "publicId": "1206",
+                                        "source": "D:\/internal project\/camping-lut_1.png",
+                                        "additional": {
+                                            "originHash": "6c03dfb4c3195dedc625b26d854e0284"
                                         }
                                     }
                                 ]
@@ -9593,6 +9815,22 @@
                                         "source": "D:\/internal project\/fish 3.png",
                                         "additional": {
                                             "originHash": "d77db9c0a6af1c1dc99a22431dc0e7b8"
+                                        }
+                                    },
+                                    {
+                                        "name": "sea-lut",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "261",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659631729149562:165466",
+                                        "fileId": "601",
+                                        "originalId": "602",
+                                        "publicId": "1207",
+                                        "source": "D:\/internal project\/sea-lut.png",
+                                        "additional": {
+                                            "originHash": "8a87fea779baca3653b9013d818d7499"
                                         }
                                     }
                                 ]
@@ -9944,8 +10182,40 @@
                                         "additional": {
                                             "originHash": "c2a331b97e43d65963167ac80b50aff4"
                                         }
+                                    },
+                                    {
+                                        "name": "rocks-lut",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "262",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1659632118301889:223544",
+                                        "fileId": "603",
+                                        "originalId": "604",
+                                        "publicId": "1208",
+                                        "source": "D:\/internal project\/rocks-lut.png",
+                                        "additional": {
+                                            "originHash": "88c16a6cd993481b9187856eda466b6d"
+                                        }
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Empty",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "259",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1659630713245895:62816",
+                                "fileId": "597",
+                                "originalId": "598",
+                                "publicId": "1205",
+                                "source": "D:\/Lens Studio\/\/Studio3DResources.bundle\/post_effects\/Empty.png",
+                                "additional": {
+                                    "originHash": "176ebd81a6145a98cc0464c9264b7fce"
+                                }
                             }
                         ]
                     },
@@ -12563,83 +12833,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "resources": [
-                    {
-                        "uid": "-1:-1",
-                        "path_list": [
-                            "Textures",
-                            "Desert"
-                        ]
-                    },
-                    {
-                        "uid": "1656923782567887:323304",
-                        "path_list": [
-                            "Textures",
-                            "Body Segmentation"
-                        ]
-                    },
-                    {
-                        "uid": "-1:-1",
-                        "path_list": [
-                            "Textures",
-                            "Jungle"
-                        ]
-                    },
-                    {
-                        "uid": "-1:-1",
-                        "path_list": [
-                            "Textures",
-                            "Sea"
-                        ]
-                    },
-                    {
-                        "uid": "1657190680232579:439296",
-                        "path_list": [
-                            "Textures",
-                            "White"
-                        ]
-                    },
-                    {
-                        "uid": "1657202807806110:119461",
-                        "path_list": [
-                            "Textures",
-                            "PE_Wave_Vector 2"
-                        ]
-                    },
-                    {
-                        "uid": "1657284152134603:25973",
-                        "path_list": [
-                            "Textures",
-                            "Particles Texture"
-                        ]
-                    },
-                    {
-                        "uid": "1:1",
-                        "path_list": [
-                            "Render Target"
-                        ]
-                    },
-                    {
-                        "uid": "8675309:9035768",
-                        "path_list": [
-                            "Physics Root World Settings"
-                        ]
-                    },
-                    {
-                        "uid": "-1:-1",
-                        "path_list": [
-                            "Echopark"
-                        ]
-                    },
-                    {
-                        "uid": "-1:-1",
-                        "path_list": [
-                            "Textures"
-                        ]
-                    }
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
