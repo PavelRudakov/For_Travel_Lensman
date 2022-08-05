@@ -3,7 +3,7 @@
     "document_id": "Ds-qSwqhzspoh2LWCl7h",
     "original_document_id": "Ds-qSwqhzspoh2LWCl7h",
     "version": "29",
-    "lastChanged": "1659635334438",
+    "lastChanged": "1659695093472",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -794,6 +794,9 @@
                         "bubbles"
                     ],
                     [
+                        "ambient"
+                    ],
+                    [
                         "meshes"
                     ],
                     [
@@ -1148,6 +1151,7 @@
                     "1657109359721757:24518",
                     "1657189179216667:152691",
                     "1657190599639077:406924",
+                    "1657285911893638:523325",
                     "1658844410416742:64845",
                     "1659013029217147:273864",
                     "1659013062341487:285621",
@@ -2889,6 +2893,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "264",
+                    "uid": "1659695017605947:128726",
+                    "name": "Files\/File606.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3796,7 +3808,8 @@
                 "166": "1659630713144917:62758",
                 "167": "1659631436674398:143746",
                 "168": "1659631732289417:170556",
-                "169": "1659632121854167:228779"
+                "169": "1659632121854167:228779",
+                "170": "1659694792682477:49614"
             }
         },
         "LayerComponent": {
@@ -5744,6 +5757,10 @@
                 {
                     "k": "604",
                     "v": "Files\/File604.png"
+                },
+                {
+                    "k": "606",
+                    "v": "Files\/File606.mp3"
                 }
             ]
         },
@@ -6525,6 +6542,10 @@
                     {
                         "k": "1208",
                         "v": "Textures\/Rocks\/rocks-lut.png"
+                    },
+                    {
+                        "k": "1210",
+                        "v": "ambient.mp3"
                     }
                 ],
                 "hashes": [
@@ -7347,15 +7368,30 @@
                     {
                         "k": "1208",
                         "v": "88c16a6cd993481b9187856eda466b6d"
+                    },
+                    {
+                        "k": "1209",
+                        "v": "623629da04ffeee8d26a172c963ce88a"
+                    },
+                    {
+                        "k": "1210",
+                        "v": "69714ff114f5815c9ac3d1d119c39eef"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-08-04T19:57:29",
+                        "lastModified": "2022-08-05T13:24:15",
                         "name": "Public",
-                        "hash": "cab715f372424b534ee9aaa5cde0f1e3",
+                        "hash": "69e966caede2e34304d477582b8da296",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-08-05T13:23:30",
+                                "name": "ambient.mp3",
+                                "hash": "69714ff114f5815c9ac3d1d119c39eef",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2022-06-27T11:51:20",
@@ -12828,6 +12864,20 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "ambient",
+                        "type": "5",
+                        "subtype": "0",
+                        "resourceId": "264",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1659695017605947:128726",
+                        "fileId": "606",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1210",
+                        "source": "C:\/Users\/Павло\/Downloads\/Cartoon Background Music No Copyright Funny Animation Royalty Free (mp3cut.net).mp3",
+                        "additional": ""
                     }
                 ]
             }
